@@ -69,7 +69,7 @@ a { color: inherit; }
   text-decoration: none;
 }
 
-.brand-mark { font-size: 28px; }
+.brand-mark { width: 36px; height: 36px; display: block; }
 
 .brand strong,
 .brand small { display: block; }
