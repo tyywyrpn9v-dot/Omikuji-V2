@@ -99,8 +99,8 @@
   },
   {
     "institution_type": "神社",
-    "city": "江東区",
-    "address": "東京都江東区",
+    "city": "墨田区",
+    "address": "東京都墨田区向島1-4-5",
     "images": [
       "assets/photos/tokyo-ushijima-ushi.jpg"
     ],
@@ -128,7 +128,7 @@
       "牛",
       "干支"
     ],
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E5%B6%8B%E7%A5%9E%E7%A4%BE%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%B1%9F%E6%9D%B1%E5%8C%BA"
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E5%90%91%E5%B3%B61-4-5"
   },
   {
     "institution_type": "神社",
@@ -1717,9 +1717,9 @@
     "shrine_temple_jp": "白子神社",
     "institution_type": "神社",
     "prefecture": "千葉県",
-    "city": "長生郡 白子町",
-    "address": "千葉県長生郡 白子町",
-    "google_maps_url": "",
+    "city": "長生郡白子町",
+    "address": "千葉県長生郡白子町関５３６４",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E8%91%89%E7%9C%8C%E9%95%B7%E7%94%9F%E9%83%A1%E7%99%BD%E5%AD%90%E7%94%BA%E9%96%A2%EF%BC%95%EF%BC%93%EF%BC%96%EF%BC%94",
     "images": [
       "assets/photos/shirohebiomikuji-shirakojinja.jpg"
     ],
@@ -2314,8 +2314,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujiushidoshi-akasakahikawajinja.jpg"
     ],
@@ -2345,8 +2345,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujitoradoshi-akasakahikawajinja.webp"
     ],
@@ -2376,8 +2376,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujitatsudoshi-akasakahikawajinja.jpg"
     ],
@@ -2407,8 +2407,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujimidoshi-akasakahikawajinja.webp"
     ],
@@ -2441,8 +2441,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujiumadoshi-akasakahikawajinja.webp"
     ],
@@ -2472,8 +2472,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujihitsujidoshi-akasakahikawajinja.jpg"
     ],
@@ -2503,8 +2503,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "港区",
-    "address": "東京都港区",
-    "google_maps_url": "",
+    "address": "東京都港区赤坂6-10-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%B5%A4%E5%9D%826-10-12",
     "images": [
       "assets/photos/harikoetomikujimonkey-akasakahikawajinja.jpg"
     ],
@@ -2723,8 +2723,8 @@
     "institution_type": "神社",
     "prefecture": "東京都",
     "city": "台東区",
-    "address": "東京都台東区",
-    "google_maps_url": "",
+    "address": "東京都台東区浅草2-3-1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-3-1",
     "images": [
       "assets/photos/haniwaomamoriomikuji-asakusajinja.jpg"
     ],
@@ -2960,6 +2960,1831 @@
     "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
     "search_terms": [
       "その他"
+    ]
+  },
+  {
+    "id": "gaja-25f3fb172433",
+    "name_jp": "干支みくじ",
+    "shrine_temple_jp": "白山比咩神社",
+    "institution_type": "神社",
+    "prefecture": "石川県",
+    "city": "白山市",
+    "address": "石川県白山市三宮町ニ105-1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E5%B7%9D%E7%9C%8C%E7%99%BD%E5%B1%B1%E5%B8%82%E4%B8%89%E5%AE%AE%E7%94%BA%E3%83%8B105-1",
+    "images": [
+      "assets/photos/gaja-25f3fb172433.jpg"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/ishikawa-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "gaja-2071fd80c638",
+    "name_jp": "八咫烏みくじ",
+    "shrine_temple_jp": "須天熊野神社",
+    "institution_type": "神社",
+    "prefecture": "石川県",
+    "city": "小松市",
+    "address": "石川県小松市須天町甲1-43",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E5%B7%9D%E7%9C%8C%E5%B0%8F%E6%9D%BE%E5%B8%82%E9%A0%88%E5%A4%A9%E7%94%BA%E7%94%B21-43",
+    "images": [
+      "assets/photos/gaja-2071fd80c638.jpg"
+    ],
+    "motif": [
+      "鳥"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/ishikawa-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "鳥"
+    ]
+  },
+  {
+    "id": "gaja-5675fe465a0e",
+    "name_jp": "うさぎみくじ",
+    "shrine_temple_jp": "菟橋神社",
+    "institution_type": "神社",
+    "prefecture": "石川県",
+    "city": "小松市",
+    "address": "石川県小松市浜田町２３３",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E5%B7%9D%E7%9C%8C%E5%B0%8F%E6%9D%BE%E5%B8%82%E6%B5%9C%E7%94%B0%E7%94%BA%EF%BC%92%EF%BC%93%EF%BC%93",
+    "images": [
+      "assets/photos/gaja-5675fe465a0e.jpg"
+    ],
+    "motif": [
+      "うさぎ"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/ishikawa-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "兔",
+      "兎"
+    ]
+  },
+  {
+    "id": "gaja-45ff0df7815a",
+    "name_jp": "だるまみくじ･薬壺みくじ",
+    "shrine_temple_jp": "明通寺",
+    "institution_type": "寺院",
+    "prefecture": "福井県",
+    "city": "小浜市",
+    "address": "福井県小浜市門前5-21",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E4%BA%95%E7%9C%8C%E5%B0%8F%E6%B5%9C%E5%B8%82%E9%96%80%E5%89%8D5-21",
+    "images": [
+      "assets/photos/gaja-45ff0df7815a.jpg"
+    ],
+    "motif": [
+      "だるま"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/ishikawa-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "達摩"
+    ]
+  },
+  {
+    "id": "gaja-dd2f17c77cb9",
+    "name_jp": "かえるみくじ",
+    "shrine_temple_jp": "丸子神社 浅間神社",
+    "institution_type": "神社",
+    "prefecture": "静岡県",
+    "city": "沼津市",
+    "address": "静岡県沼津市浅間町4",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%99%E5%B2%A1%E7%9C%8C%E6%B2%BC%E6%B4%A5%E5%B8%82%E6%B5%85%E9%96%93%E7%94%BA4",
+    "images": [
+      "assets/photos/gaja-dd2f17c77cb9.jpg"
+    ],
+    "motif": [
+      "かえる"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/shizuoka-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "蛙"
+    ]
+  },
+  {
+    "id": "gaja-bf85861b8f8a",
+    "name_jp": "うさぎみくじ",
+    "shrine_temple_jp": "宇治上神社",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "宇治市",
+    "address": "京都府宇治市宇治山田５９",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E5%AE%87%E6%B2%BB%E5%B8%82%E5%AE%87%E6%B2%BB%E5%B1%B1%E7%94%B0%EF%BC%95%EF%BC%99",
+    "images": [
+      "assets/photos/gaja-bf85861b8f8a.jpg"
+    ],
+    "motif": [
+      "うさぎ"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "兔",
+      "兎"
+    ]
+  },
+  {
+    "id": "gaja-36eea033f308",
+    "name_jp": "鳩みくじ",
+    "shrine_temple_jp": "石清水八幡宮",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "八幡市",
+    "address": "京都府八幡市八幡高坊30",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E5%85%AB%E5%B9%A1%E5%B8%82%E5%85%AB%E5%B9%A1%E9%AB%98%E5%9D%8A30",
+    "images": [
+      "assets/photos/gaja-36eea033f308.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-39f2ea887a25",
+    "name_jp": "馬みくじ",
+    "shrine_temple_jp": "加茂別雷神社",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市北区上賀茂本山３３９",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8C%97%E5%8C%BA%E4%B8%8A%E8%B3%80%E8%8C%82%E6%9C%AC%E5%B1%B1%EF%BC%93%EF%BC%93%EF%BC%99",
+    "images": [
+      "assets/photos/gaja-39f2ea887a25.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-2df105b02e11",
+    "name_jp": "八咫烏みくじ・かもなすみくじ",
+    "shrine_temple_jp": "加茂別雷神社",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市北区上賀茂本山３３９",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8C%97%E5%8C%BA%E4%B8%8A%E8%B3%80%E8%8C%82%E6%9C%AC%E5%B1%B1%EF%BC%93%EF%BC%93%EF%BC%99",
+    "images": [
+      "assets/photos/gaja-2df105b02e11.jpg"
+    ],
+    "motif": [
+      "鳥"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "鳥"
+    ]
+  },
+  {
+    "id": "gaja-cdf42aa605b3",
+    "name_jp": "狛ねずみみくじ",
+    "shrine_temple_jp": "大豊神社 大黒社",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市左京区鹿ケ谷宮ノ前町２０",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8C%BA%E9%B9%BF%E3%82%B1%E8%B0%B7%E5%AE%AE%E3%83%8E%E5%89%8D%E7%94%BA%EF%BC%92%EF%BC%90",
+    "images": [
+      "assets/photos/gaja-cdf42aa605b3.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-8836eb480cad",
+    "name_jp": "布袋尊みくじ",
+    "shrine_temple_jp": "黄檗山萬福寺",
+    "institution_type": "寺院",
+    "prefecture": "京都府",
+    "city": "宇治市",
+    "address": "京都府宇治市五ケ庄芝ノ東６−３",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E5%AE%87%E6%B2%BB%E5%B8%82%E4%BA%94%E3%82%B1%E5%BA%84%E8%8A%9D%E3%83%8E%E6%9D%B1%EF%BC%96%E2%88%92%EF%BC%93",
+    "images": [
+      "assets/photos/gaja-8836eb480cad.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-48dcd56a8a29",
+    "name_jp": "牛みくじ",
+    "shrine_temple_jp": "文子天満宮",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市下京区間之町通花屋町下る天神町４００",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%8B%E4%BA%AC%E5%8C%BA%E9%96%93%E4%B9%8B%E7%94%BA%E9%80%9A%E8%8A%B1%E5%B1%8B%E7%94%BA%E4%B8%8B%E3%82%8B%E5%A4%A9%E7%A5%9E%E7%94%BA%EF%BC%94%EF%BC%90%EF%BC%90",
+    "images": [
+      "assets/photos/gaja-48dcd56a8a29.jpg"
+    ],
+    "motif": [
+      "うし"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "牛"
+    ]
+  },
+  {
+    "id": "gaja-05cfb5243c6a",
+    "name_jp": "龍みくじ",
+    "shrine_temple_jp": "伏見神宝神社",
+    "institution_type": "神社",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市伏見区深草笹山町15",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E4%BC%8F%E8%A6%8B%E5%8C%BA%E6%B7%B1%E8%8D%89%E7%AC%B9%E5%B1%B1%E7%94%BA15",
+    "images": [
+      "assets/photos/gaja-05cfb5243c6a.jpg"
+    ],
+    "motif": [
+      "龍"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "龍",
+      "竜"
+    ]
+  },
+  {
+    "id": "gaja-cfd5abbba012",
+    "name_jp": "不動明王みくじ",
+    "shrine_temple_jp": "大覚寺",
+    "institution_type": "寺院",
+    "prefecture": "京都府",
+    "city": "京都市",
+    "address": "京都府京都市右京区嵯峨大沢町4",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8C%BA%E5%B5%AF%E5%B3%A8%E5%A4%A7%E6%B2%A2%E7%94%BA4",
+    "images": [
+      "assets/photos/gaja-cfd5abbba012.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kyoto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-2f67b5506f0e",
+    "name_jp": "コウノトリみくじ",
+    "shrine_temple_jp": "鴻神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "鴻巣市",
+    "address": "埼玉県鴻巣市本宮町1-9",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BC%E7%8E%89%E7%9C%8C%E9%B4%BB%E5%B7%A3%E5%B8%82%E6%9C%AC%E5%AE%AE%E7%94%BA1-9",
+    "images": [
+      "assets/photos/gaja-2f67b5506f0e.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/higashikanto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-055aabff8596",
+    "name_jp": "招き猫みくじ",
+    "shrine_temple_jp": "川越氷川神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "埼玉県川越市宮下町2-11-3",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BC%E7%8E%89%E7%9C%8C%E5%B7%9D%E8%B6%8A%E5%B8%82%E5%AE%AE%E4%B8%8B%E7%94%BA2-11-3",
+    "images": [
+      "assets/photos/gaja-055aabff8596.jpg"
+    ],
+    "motif": [
+      "ねこ"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/higashikanto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "貓",
+      "猫"
+    ]
+  },
+  {
+    "id": "gaja-8e06eeeef322",
+    "name_jp": "ガチャみくじ",
+    "shrine_temple_jp": "和楽備神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "蕨市",
+    "address": "埼玉県蕨市中央４－２０－９",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BC%E7%8E%89%E7%9C%8C%E8%95%A8%E5%B8%82%E4%B8%AD%E5%A4%AE%EF%BC%94%EF%BC%8D%EF%BC%92%EF%BC%90%EF%BC%8D%EF%BC%99",
+    "images": [
+      "assets/photos/gaja-8e06eeeef322.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/higashikanto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-136eb7a8a69a",
+    "name_jp": "八咫烏みくじ",
+    "shrine_temple_jp": "川越 熊野神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "埼玉県川越市連雀町１７－１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BC%E7%8E%89%E7%9C%8C%E5%B7%9D%E8%B6%8A%E5%B8%82%E9%80%A3%E9%9B%80%E7%94%BA%EF%BC%91%EF%BC%97%EF%BC%8D%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-136eb7a8a69a.jpg"
+    ],
+    "motif": [
+      "鳥"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/higashikanto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "鳥"
+    ]
+  },
+  {
+    "id": "gaja-b34dce6df0c7",
+    "name_jp": "だるまみくじ など",
+    "shrine_temple_jp": "山名八幡宮",
+    "institution_type": "神社",
+    "prefecture": "群馬県",
+    "city": "高崎市",
+    "address": "群馬県高崎市山名町1581",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%BE%A4%E9%A6%AC%E7%9C%8C%E9%AB%98%E5%B4%8E%E5%B8%82%E5%B1%B1%E5%90%8D%E7%94%BA1581",
+    "images": [
+      "assets/photos/gaja-b34dce6df0c7.jpg"
+    ],
+    "motif": [
+      "だるま"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/higashikanto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "達摩"
+    ]
+  },
+  {
+    "id": "gaja-813d5e8f719e",
+    "name_jp": "だるまみくじ など",
+    "shrine_temple_jp": "於菊稲荷神社",
+    "institution_type": "神社",
+    "prefecture": "群馬県",
+    "city": "高崎市",
+    "address": "群馬県高崎市新町247",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%BE%A4%E9%A6%AC%E7%9C%8C%E9%AB%98%E5%B4%8E%E5%B8%82%E6%96%B0%E7%94%BA247",
+    "images": [
+      "assets/photos/gaja-813d5e8f719e.jpg"
+    ],
+    "motif": [
+      "だるま"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/higashikanto-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "達摩"
+    ]
+  },
+  {
+    "id": "gaja-45e6a0bd4539",
+    "name_jp": "うまみくじ",
+    "shrine_temple_jp": "石切劔箭神社",
+    "institution_type": "神社",
+    "prefecture": "大阪府",
+    "city": "東大阪市",
+    "address": "大阪府東大阪市東石切町１丁目１−１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%BA%9C%E6%9D%B1%E5%A4%A7%E9%98%AA%E5%B8%82%E6%9D%B1%E7%9F%B3%E5%88%87%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-45e6a0bd4539.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/osaka-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-0a922f477198",
+    "name_jp": "猿田彦みくじ",
+    "shrine_temple_jp": "尾張猿田彦神社",
+    "institution_type": "神社",
+    "prefecture": "愛知県",
+    "city": "一宮市",
+    "address": "愛知県一宮市奥町風田６７−１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%84%9B%E7%9F%A5%E7%9C%8C%E4%B8%80%E5%AE%AE%E5%B8%82%E5%A5%A5%E7%94%BA%E9%A2%A8%E7%94%B0%EF%BC%96%EF%BC%97%E2%88%92%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-0a922f477198.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/aichigifushiga-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-e805d6ea8df5",
+    "name_jp": "いぬみくじ",
+    "shrine_temple_jp": "伊奴神社",
+    "institution_type": "神社",
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市西区稲生町2-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82%E8%A5%BF%E5%8C%BA%E7%A8%B2%E7%94%9F%E7%94%BA2-12",
+    "images": [
+      "assets/photos/gaja-e805d6ea8df5.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/aichigifushiga-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-2574ea468b22",
+    "name_jp": "天神みくじ",
+    "shrine_temple_jp": "上野天満宮",
+    "institution_type": "神社",
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市千種区赤坂町4-89",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82%E5%8D%83%E7%A8%AE%E5%8C%BA%E8%B5%A4%E5%9D%82%E7%94%BA4-89",
+    "images": [
+      "assets/photos/gaja-2574ea468b22.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/aichigifushiga-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-6a41a20f6d18",
+    "name_jp": "干支みくじ・招き猫みくじ",
+    "shrine_temple_jp": "山田天満宮",
+    "institution_type": "神社",
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市北区山田町3-25",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82%E5%8C%97%E5%8C%BA%E5%B1%B1%E7%94%B0%E7%94%BA3-25",
+    "images": [
+      "assets/photos/gaja-6a41a20f6d18.jpg"
+    ],
+    "motif": [
+      "ねこ",
+      "干支"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/aichigifushiga-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "貓",
+      "猫",
+      "干支"
+    ]
+  },
+  {
+    "id": "gaja-189954e58f50",
+    "name_jp": "逆立ち狛犬みくじ",
+    "shrine_temple_jp": "伊奈波神社",
+    "institution_type": "神社",
+    "prefecture": "岐阜県",
+    "city": "",
+    "address": "岐阜県伊奈波通1-1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%90%E9%98%9C%E7%9C%8C%E4%BC%8A%E5%A5%88%E6%B3%A2%E9%80%9A1-1",
+    "images": [
+      "assets/photos/gaja-189954e58f50.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/aichigifushiga-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-66710711fbe2",
+    "name_jp": "神猿みくじ",
+    "shrine_temple_jp": "山王総本宮 日吉大社",
+    "institution_type": "神社",
+    "prefecture": "滋賀県",
+    "city": "大津市",
+    "address": "滋賀県大津市坂本5-1-1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%BB%8B%E8%B3%80%E7%9C%8C%E5%A4%A7%E6%B4%A5%E5%B8%82%E5%9D%82%E6%9C%AC5-1-1",
+    "images": [
+      "assets/photos/gaja-66710711fbe2.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/aichigifushiga-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-57f64adf66d4",
+    "name_jp": "早太郎みくじ",
+    "shrine_temple_jp": "宝積山 光前寺",
+    "institution_type": "寺院",
+    "prefecture": "長野県",
+    "city": "駒ヶ根市",
+    "address": "長野県駒ヶ根市赤穂２９ 拝観時間等 9：30〜15：30",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E9%A7%92%E3%83%B6%E6%A0%B9%E5%B8%82%E8%B5%A4%E7%A9%82%EF%BC%92%EF%BC%99%20%E6%8B%9D%E8%A6%B3%E6%99%82%E9%96%93%E7%AD%89%209%EF%BC%9A30%E3%80%9C15%EF%BC%9A30",
+    "images": [
+      "assets/photos/gaja-57f64adf66d4.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-1bf9cc28a727",
+    "name_jp": "雷鳥みくじ",
+    "shrine_temple_jp": "西山 八王子神社",
+    "institution_type": "神社",
+    "prefecture": "長野県",
+    "city": "大町",
+    "address": "長野県大町市常盤西山１６３",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E5%A4%A7%E7%94%BA%E5%B8%82%E5%B8%B8%E7%9B%A4%E8%A5%BF%E5%B1%B1%EF%BC%91%EF%BC%96%EF%BC%93",
+    "images": [
+      "assets/photos/gaja-1bf9cc28a727.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-2bb029835b31",
+    "name_jp": "牛守",
+    "shrine_temple_jp": "善光寺",
+    "institution_type": "寺院",
+    "prefecture": "長野県",
+    "city": "長野市",
+    "address": "長野県長野市元善町491 拝観時間等 9：30〜15：30",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E9%95%B7%E9%87%8E%E5%B8%82%E5%85%83%E5%96%84%E7%94%BA491%20%E6%8B%9D%E8%A6%B3%E6%99%82%E9%96%93%E7%AD%89%209%EF%BC%9A30%E3%80%9C15%EF%BC%9A30",
+    "images": [
+      "assets/photos/gaja-2bb029835b31.jpg"
+    ],
+    "motif": [
+      "うし"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "牛"
+    ]
+  },
+  {
+    "id": "gaja-0648678fb767",
+    "name_jp": "アマビエみくじ",
+    "shrine_temple_jp": "長野県護国神社",
+    "institution_type": "神社",
+    "prefecture": "長野県",
+    "city": "松本市",
+    "address": "長野県松本市美須々6−1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E6%9D%BE%E6%9C%AC%E5%B8%82%E7%BE%8E%E9%A0%88%E3%80%856%E2%88%921",
+    "images": [
+      "assets/photos/gaja-0648678fb767.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-3556db1a505d",
+    "name_jp": "勝鯛みくじ",
+    "shrine_temple_jp": "眞田神社",
+    "institution_type": "神社",
+    "prefecture": "長野県",
+    "city": "上田市",
+    "address": "長野県上田市二の丸1-12",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E4%B8%8A%E7%94%B0%E5%B8%82%E4%BA%8C%E3%81%AE%E4%B8%B81-12",
+    "images": [
+      "assets/photos/gaja-3556db1a505d.jpg"
+    ],
+    "motif": [
+      "鯛"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "gaja-328b288255df",
+    "name_jp": "恵比寿天・大黒天みくじ",
+    "shrine_temple_jp": "四柱神社",
+    "institution_type": "神社",
+    "prefecture": "長野県",
+    "city": "松本市",
+    "address": "長野県松本市大手３丁目３−２０",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E6%9D%BE%E6%9C%AC%E5%B8%82%E5%A4%A7%E6%89%8B%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%92%EF%BC%90",
+    "images": [
+      "assets/photos/gaja-328b288255df.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-54face1cf692",
+    "name_jp": "松本だるま・松本てまりみくじ",
+    "shrine_temple_jp": "深志神社",
+    "institution_type": "神社",
+    "prefecture": "長野県",
+    "city": "松本市",
+    "address": "長野県松本市深志三丁目7番43号",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%87%8E%E7%9C%8C%E6%9D%BE%E6%9C%AC%E5%B8%82%E6%B7%B1%E5%BF%97%E4%B8%89%E4%B8%81%E7%9B%AE7%E7%95%AA43%E5%8F%B7",
+    "images": [
+      "assets/photos/gaja-54face1cf692.jpg"
+    ],
+    "motif": [
+      "だるま"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nagano-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "達摩"
+    ]
+  },
+  {
+    "id": "gaja-f75abd6d1168",
+    "name_jp": "一年安鯛みくじ",
+    "shrine_temple_jp": "浅草神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区浅草2-3-1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-3-1",
+    "images": [
+      "assets/photos/gaja-f75abd6d1168.jpg"
+    ],
+    "motif": [
+      "鯛"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "gaja-a768a80ff4c8",
+    "name_jp": "クリアファイルおみくじ",
+    "shrine_temple_jp": "宝童稲荷神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "中央区",
+    "address": "東京都中央区銀座4丁目3－14",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A74%E4%B8%81%E7%9B%AE3%EF%BC%8D14",
+    "images": [
+      "assets/photos/gaja-a768a80ff4c8.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-3c3d6765d8aa",
+    "name_jp": "弁天みくじ",
+    "shrine_temple_jp": "太子堂八幡神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "address": "東京都世田谷区太子堂 ５−２３−５",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E5%A4%AA%E5%AD%90%E5%A0%82%20%EF%BC%95%E2%88%92%EF%BC%92%EF%BC%93%E2%88%92%EF%BC%95",
+    "images": [
+      "assets/photos/gaja-3c3d6765d8aa.jpg"
+    ],
+    "motif": [
+      "弁天"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "神明",
+      "弁天"
+    ]
+  },
+  {
+    "id": "gaja-d3ff51c494ff",
+    "name_jp": "ダルマみくじ・きつねみくじ",
+    "shrine_temple_jp": "花園神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区新宿5-17-3",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF5-17-3",
+    "images": [
+      "assets/photos/gaja-d3ff51c494ff.jpg"
+    ],
+    "motif": [
+      "きつね",
+      "だるま"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "狐",
+      "達摩"
+    ]
+  },
+  {
+    "id": "gaja-2677ab1aca28",
+    "name_jp": "猪みくじ",
+    "shrine_temple_jp": "摩利支天 徳大寺",
+    "institution_type": "寺院",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区上野4丁目6-2",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%8A%E9%87%8E4%E4%B8%81%E7%9B%AE6-2",
+    "images": [
+      "assets/photos/gaja-2677ab1aca28.jpg"
+    ],
+    "motif": [
+      "いのしし"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "豬",
+      "猪"
+    ]
+  },
+  {
+    "id": "gaja-79cc02d7a94e",
+    "name_jp": "辯才天みくじ",
+    "shrine_temple_jp": "不忍池辯天堂",
+    "institution_type": "寺院",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区上野公園２−１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%8A%E9%87%8E%E5%85%AC%E5%9C%92%EF%BC%92%E2%88%92%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-79cc02d7a94e.jpg"
+    ],
+    "motif": [
+      "弁天"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "神明",
+      "弁天"
+    ]
+  },
+  {
+    "id": "gaja-791133c5f099",
+    "name_jp": "招き猫みくじ",
+    "shrine_temple_jp": "今戸神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区今戸１丁目５−２２",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%BB%8A%E6%88%B8%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%92%EF%BC%92",
+    "images": [
+      "assets/photos/gaja-791133c5f099.jpg"
+    ],
+    "motif": [
+      "ねこ"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "貓",
+      "猫"
+    ]
+  },
+  {
+    "id": "gaja-124cb421d6ba",
+    "name_jp": "牛みくじ",
+    "shrine_temple_jp": "牛嶋神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "墨田区",
+    "address": "東京都墨田区向島1-4-5",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E5%90%91%E5%B3%B61-4-5",
+    "images": [
+      "assets/photos/gaja-124cb421d6ba.jpg"
+    ],
+    "motif": [
+      "うし"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "牛"
+    ]
+  },
+  {
+    "id": "gaja-8edae8446fa3",
+    "name_jp": "アサリみくじ",
+    "shrine_temple_jp": "八剱八幡神社",
+    "institution_type": "神社",
+    "prefecture": "千葉県",
+    "city": "木更津市",
+    "address": "千葉県木更津市富士見1丁目6－15",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E8%91%89%E7%9C%8C%E6%9C%A8%E6%9B%B4%E6%B4%A5%E5%B8%82%E5%AF%8C%E5%A3%AB%E8%A6%8B1%E4%B8%81%E7%9B%AE6%EF%BC%8D15",
+    "images": [
+      "assets/photos/gaja-8edae8446fa3.jpg"
+    ],
+    "motif": [
+      "あさり"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "蛤"
+    ]
+  },
+  {
+    "id": "gaja-d701a5de7ce1",
+    "name_jp": "鶴みくじ",
+    "shrine_temple_jp": "鶴峯八幡宮",
+    "institution_type": "神社",
+    "prefecture": "千葉県",
+    "city": "市原市",
+    "address": "千葉県市原市中高根1223",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E8%91%89%E7%9C%8C%E5%B8%82%E5%8E%9F%E5%B8%82%E4%B8%AD%E9%AB%98%E6%A0%B91223",
+    "images": [
+      "assets/photos/gaja-d701a5de7ce1.jpg"
+    ],
+    "motif": [
+      "つる"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "鶴"
+    ]
+  },
+  {
+    "id": "gaja-3d1c6b149606",
+    "name_jp": "唐獅子みくじ",
+    "shrine_temple_jp": "東光院",
+    "institution_type": "寺院",
+    "prefecture": "千葉県",
+    "city": "千葉市",
+    "address": "千葉県千葉市緑区平山町278",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E8%91%89%E7%9C%8C%E5%8D%83%E8%91%89%E5%B8%82%E7%B7%91%E5%8C%BA%E5%B9%B3%E5%B1%B1%E7%94%BA278",
+    "images": [
+      "assets/photos/gaja-3d1c6b149606.jpg"
+    ],
+    "motif": [
+      "獅子"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "獅子"
+    ]
+  },
+  {
+    "id": "gaja-a5159600dcaf",
+    "name_jp": "カッパのおみくじ",
+    "shrine_temple_jp": "常泉寺",
+    "institution_type": "寺院",
+    "prefecture": "神奈川県",
+    "city": "大和市",
+    "address": "神奈川県大和市福田2176",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E5%A4%A7%E5%92%8C%E5%B8%82%E7%A6%8F%E7%94%B02176",
+    "images": [
+      "assets/photos/gaja-a5159600dcaf.jpg"
+    ],
+    "motif": [
+      "かっぱ"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/tokyo-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "河童"
+    ]
+  },
+  {
+    "id": "gaja-e1c5c8c7b860",
+    "name_jp": "菅原道真みくじ",
+    "shrine_temple_jp": "於保多神社",
+    "institution_type": "神社",
+    "prefecture": "富山県",
+    "city": "富山市",
+    "address": "富山県富山市於保多町1－32",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%B1%B1%E7%9C%8C%E5%AF%8C%E5%B1%B1%E5%B8%82%E6%96%BC%E4%BF%9D%E5%A4%9A%E7%94%BA1%EF%BC%8D32",
+    "images": [
+      "assets/photos/gaja-e1c5c8c7b860.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/toyama-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-a42b8979f95d",
+    "name_jp": "だるまみくじ",
+    "shrine_temple_jp": "越中稲荷神社",
+    "institution_type": "神社",
+    "prefecture": "富山県",
+    "city": "富山市",
+    "address": "富山県富山市稲荷町2丁目5番5号",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%B1%B1%E7%9C%8C%E5%AF%8C%E5%B1%B1%E5%B8%82%E7%A8%B2%E8%8D%B7%E7%94%BA2%E4%B8%81%E7%9B%AE5%E7%95%AA5%E5%8F%B7",
+    "images": [
+      "assets/photos/gaja-a42b8979f95d.jpg"
+    ],
+    "motif": [
+      "だるま"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/toyama-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "達摩"
+    ]
+  },
+  {
+    "id": "gaja-6c6e28893594",
+    "name_jp": "うさぎみくじ",
+    "shrine_temple_jp": "高瀬神社",
+    "institution_type": "神社",
+    "prefecture": "富山県",
+    "city": "南砺市",
+    "address": "富山県南砺市高瀬２９１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%B1%B1%E7%9C%8C%E5%8D%97%E7%A0%BA%E5%B8%82%E9%AB%98%E7%80%AC%EF%BC%92%EF%BC%99%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-6c6e28893594.jpg"
+    ],
+    "motif": [
+      "うさぎ"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/toyama-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "兔",
+      "兎"
+    ]
+  },
+  {
+    "id": "gaja-a902d061a513",
+    "name_jp": "家持さまみくじ",
+    "shrine_temple_jp": "放生津八幡宮",
+    "institution_type": "神社",
+    "prefecture": "富山県",
+    "city": "射水市",
+    "address": "富山県射水市八幡町2-2-27",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%B1%B1%E7%9C%8C%E5%B0%84%E6%B0%B4%E5%B8%82%E5%85%AB%E5%B9%A1%E7%94%BA2-2-27",
+    "images": [
+      "assets/photos/gaja-a902d061a513.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/toyama-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-e65cde0b833f",
+    "name_jp": "和み地蔵みくじ",
+    "shrine_temple_jp": "長谷寺",
+    "institution_type": "寺院",
+    "prefecture": "神奈川県",
+    "city": "鎌倉市",
+    "address": "神奈川県鎌倉市長谷3-11-2",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E9%8E%8C%E5%80%89%E5%B8%82%E9%95%B7%E8%B0%B73-11-2",
+    "images": [
+      "assets/photos/gaja-e65cde0b833f.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kanagawa-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-e8fc1cf8a554",
+    "name_jp": "鳩みくじ",
+    "shrine_temple_jp": "鶴岡八幡宮",
+    "institution_type": "神社",
+    "prefecture": "神奈川県",
+    "city": "鎌倉市",
+    "address": "神奈川県鎌倉市雪ノ下2丁目1番31号",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E9%8E%8C%E5%80%89%E5%B8%82%E9%9B%AA%E3%83%8E%E4%B8%8B2%E4%B8%81%E7%9B%AE1%E7%95%AA31%E5%8F%B7",
+    "images": [
+      "assets/photos/gaja-e8fc1cf8a554.jpg"
+    ],
+    "motif": [
+      "つる"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/kanagawa-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "鶴"
+    ]
+  },
+  {
+    "id": "gaja-4bda0f72fc01",
+    "name_jp": "きつね･華の筒みくじ",
+    "shrine_temple_jp": "湊稲荷神社",
+    "institution_type": "神社",
+    "prefecture": "新潟県",
+    "city": "新潟市",
+    "address": "新潟県新潟市中央区稲荷町３４８２",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%BD%9F%E7%9C%8C%E6%96%B0%E6%BD%9F%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E7%A8%B2%E8%8D%B7%E7%94%BA%EF%BC%93%EF%BC%94%EF%BC%98%EF%BC%92",
+    "images": [
+      "assets/photos/gaja-4bda0f72fc01.jpg"
+    ],
+    "motif": [
+      "きつね"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/niigata-fukushima-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "狐"
+    ]
+  },
+  {
+    "id": "gaja-383a0d344874",
+    "name_jp": "きつねみくじ",
+    "shrine_temple_jp": "青山御幣稲荷神社",
+    "institution_type": "神社",
+    "prefecture": "新潟県",
+    "city": "新潟市",
+    "address": "新潟県新潟市西区青山１丁目１８−１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%BD%9F%E7%9C%8C%E6%96%B0%E6%BD%9F%E5%B8%82%E8%A5%BF%E5%8C%BA%E9%9D%92%E5%B1%B1%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%98%E2%88%92%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-383a0d344874.jpg"
+    ],
+    "motif": [
+      "きつね"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/niigata-fukushima-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "狐"
+    ]
+  },
+  {
+    "id": "gaja-d5ad2972854e",
+    "name_jp": "おみくじ",
+    "shrine_temple_jp": "薬師寺 東塔",
+    "institution_type": "神社",
+    "prefecture": "奈良県",
+    "city": "奈良市",
+    "address": "奈良県奈良市西ノ京町457",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%88%E8%89%AF%E7%9C%8C%E5%A5%88%E8%89%AF%E5%B8%82%E8%A5%BF%E3%83%8E%E4%BA%AC%E7%94%BA457",
+    "images": [
+      "assets/photos/gaja-d5ad2972854e.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nara-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-e613b679fce7",
+    "name_jp": "鹿みくじ",
+    "shrine_temple_jp": "春日大社",
+    "institution_type": "神社",
+    "prefecture": "奈良県",
+    "city": "奈良市",
+    "address": "奈良県奈良市春日野町160",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%88%E8%89%AF%E7%9C%8C%E5%A5%88%E8%89%AF%E5%B8%82%E6%98%A5%E6%97%A5%E9%87%8E%E7%94%BA160",
+    "images": [
+      "assets/photos/gaja-e613b679fce7.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nara-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-fcad0e08c7d4",
+    "name_jp": "宝袋みくじ",
+    "shrine_temple_jp": "生駒聖天 寶山寺",
+    "institution_type": "寺院",
+    "prefecture": "奈良県",
+    "city": "生駒市",
+    "address": "奈良県生駒市門前町1-1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%88%E8%89%AF%E7%9C%8C%E7%94%9F%E9%A7%92%E5%B8%82%E9%96%80%E5%89%8D%E7%94%BA1-1",
+    "images": [
+      "assets/photos/gaja-fcad0e08c7d4.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nara-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-5d23b48aa6eb",
+    "name_jp": "金鵄みくじ",
+    "shrine_temple_jp": "橿原神宮",
+    "institution_type": "神社",
+    "prefecture": "奈良県",
+    "city": "橿原市",
+    "address": "奈良県橿原市久米町934",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%88%E8%89%AF%E7%9C%8C%E6%A9%BF%E5%8E%9F%E5%B8%82%E4%B9%85%E7%B1%B3%E7%94%BA934",
+    "images": [
+      "assets/photos/gaja-5d23b48aa6eb.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nara-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-d12d7a2cb081",
+    "name_jp": "虎みくじ",
+    "shrine_temple_jp": "信貴山 朝護孫子寺",
+    "institution_type": "寺院",
+    "prefecture": "奈良県",
+    "city": "生駒郡平群町",
+    "address": "奈良県生駒郡平群町信貴山２２８０−１",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%88%E8%89%AF%E7%9C%8C%E7%94%9F%E9%A7%92%E9%83%A1%E5%B9%B3%E7%BE%A4%E7%94%BA%E4%BF%A1%E8%B2%B4%E5%B1%B1%EF%BC%92%EF%BC%92%EF%BC%98%EF%BC%90%E2%88%92%EF%BC%91",
+    "images": [
+      "assets/photos/gaja-d12d7a2cb081.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nara-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": []
+  },
+  {
+    "id": "gaja-e1058436dbd6",
+    "name_jp": "招き猫みくじ・干支みくじ",
+    "shrine_temple_jp": "東光山 岡寺",
+    "institution_type": "寺院",
+    "prefecture": "奈良県",
+    "city": "高市",
+    "address": "奈良県高市郡明日香村岡806",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%88%E8%89%AF%E7%9C%8C%E9%AB%98%E5%B8%82%E9%83%A1%E6%98%8E%E6%97%A5%E9%A6%99%E6%9D%91%E5%B2%A1806",
+    "images": [
+      "assets/photos/gaja-e1058436dbd6.jpg"
+    ],
+    "motif": [
+      "ねこ",
+      "干支"
+    ],
+    "material": "",
+    "price": "",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://gajalife.com/nara-omikuji/",
+    "source_title": "GajaLife",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自 GajaLife 地區整理頁收錄。狀態為曾確認，不是現場現貨確認。價格未寫明則留空。",
+    "search_terms": [
+      "貓",
+      "猫",
+      "干支"
     ]
   }
 ]
