@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Japan Omikuji Database Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name_jp",
+    "shrine_temple_jp",
+    "prefecture",
+    "status",
+    "source_url"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name_jp": {
+      "type": "string",
+      "description": "御神籤名稱；以日文可核實名稱為準"
+    },
+    "shrine_temple_jp": {
+      "type": "string",
+      "description": "神社／寺院日文名稱"
+    },
+    "institution_type": {
+      "type": "string",
+      "enum": ["神社", "寺院", "その他", ""]
+    },
+    "prefecture": { "type": "string" },
+    "city": { "type": "string" },
+    "address": { "type": "string" },
+    "google_maps_url": { "type": "string" },
+    "images": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "只放有授權或自行拍攝的圖片。沒有就留空陣列，不要外連他人照片。"
+    },
+    "motif": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "以日文題材為主，例如 うさぎ。中文同義詞放 search_terms。"
+    },
+    "material": { "type": "string" },
+    "price": { "type": "string" },
+    "notes": { "type": "string" },
+    "source_url": { "type": "string" },
+    "source_title": { "type": "string" },
+    "source_published_date": { "type": "string" },
+    "data_retrieved_date": { "type": "string" },
+    "official_url": { "type": "string" },
+    "official_social_urls": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_verified_date": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["current_confirmed", "previously_confirmed", "discontinued", ""]
+    },
+    "version_notes": { "type": "string" },
+    "search_terms": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

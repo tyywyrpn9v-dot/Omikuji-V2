@@ -1,0 +1,808 @@
+{
+  "version": "1.0",
+  "description": "日本御神籤搜尋器：都道府縣及造型／題材搜尋同義詞。",
+  "prefectures": [
+    {
+      "code": "01",
+      "name_ja": "北海道",
+      "type": "道",
+      "romaji": "Hokkaido",
+      "region": "北海道"
+    },
+    {
+      "code": "02",
+      "name_ja": "青森県",
+      "type": "県",
+      "romaji": "Aomori",
+      "region": "東北"
+    },
+    {
+      "code": "03",
+      "name_ja": "岩手県",
+      "type": "県",
+      "romaji": "Iwate",
+      "region": "東北"
+    },
+    {
+      "code": "04",
+      "name_ja": "宮城県",
+      "type": "県",
+      "romaji": "Miyagi",
+      "region": "東北"
+    },
+    {
+      "code": "05",
+      "name_ja": "秋田県",
+      "type": "県",
+      "romaji": "Akita",
+      "region": "東北"
+    },
+    {
+      "code": "06",
+      "name_ja": "山形県",
+      "type": "県",
+      "romaji": "Yamagata",
+      "region": "東北"
+    },
+    {
+      "code": "07",
+      "name_ja": "福島県",
+      "type": "県",
+      "romaji": "Fukushima",
+      "region": "東北"
+    },
+    {
+      "code": "08",
+      "name_ja": "茨城県",
+      "type": "県",
+      "romaji": "Ibaraki",
+      "region": "関東"
+    },
+    {
+      "code": "09",
+      "name_ja": "栃木県",
+      "type": "県",
+      "romaji": "Tochigi",
+      "region": "関東"
+    },
+    {
+      "code": "10",
+      "name_ja": "群馬県",
+      "type": "県",
+      "romaji": "Gunma",
+      "region": "関東"
+    },
+    {
+      "code": "11",
+      "name_ja": "埼玉県",
+      "type": "県",
+      "romaji": "Saitama",
+      "region": "関東"
+    },
+    {
+      "code": "12",
+      "name_ja": "千葉県",
+      "type": "県",
+      "romaji": "Chiba",
+      "region": "関東"
+    },
+    {
+      "code": "13",
+      "name_ja": "東京都",
+      "type": "都",
+      "romaji": "Tokyo",
+      "region": "関東"
+    },
+    {
+      "code": "14",
+      "name_ja": "神奈川県",
+      "type": "県",
+      "romaji": "Kanagawa",
+      "region": "関東"
+    },
+    {
+      "code": "15",
+      "name_ja": "新潟県",
+      "type": "県",
+      "romaji": "Niigata",
+      "region": "中部"
+    },
+    {
+      "code": "16",
+      "name_ja": "富山県",
+      "type": "県",
+      "romaji": "Toyama",
+      "region": "中部"
+    },
+    {
+      "code": "17",
+      "name_ja": "石川県",
+      "type": "県",
+      "romaji": "Ishikawa",
+      "region": "中部"
+    },
+    {
+      "code": "18",
+      "name_ja": "福井県",
+      "type": "県",
+      "romaji": "Fukui",
+      "region": "中部"
+    },
+    {
+      "code": "19",
+      "name_ja": "山梨県",
+      "type": "県",
+      "romaji": "Yamanashi",
+      "region": "中部"
+    },
+    {
+      "code": "20",
+      "name_ja": "長野県",
+      "type": "県",
+      "romaji": "Nagano",
+      "region": "中部"
+    },
+    {
+      "code": "21",
+      "name_ja": "岐阜県",
+      "type": "県",
+      "romaji": "Gifu",
+      "region": "中部"
+    },
+    {
+      "code": "22",
+      "name_ja": "静岡県",
+      "type": "県",
+      "romaji": "Shizuoka",
+      "region": "中部"
+    },
+    {
+      "code": "23",
+      "name_ja": "愛知県",
+      "type": "県",
+      "romaji": "Aichi",
+      "region": "中部"
+    },
+    {
+      "code": "24",
+      "name_ja": "三重県",
+      "type": "県",
+      "romaji": "Mie",
+      "region": "近畿"
+    },
+    {
+      "code": "25",
+      "name_ja": "滋賀県",
+      "type": "県",
+      "romaji": "Shiga",
+      "region": "近畿"
+    },
+    {
+      "code": "26",
+      "name_ja": "京都府",
+      "type": "府",
+      "romaji": "Kyoto",
+      "region": "近畿"
+    },
+    {
+      "code": "27",
+      "name_ja": "大阪府",
+      "type": "府",
+      "romaji": "Osaka",
+      "region": "近畿"
+    },
+    {
+      "code": "28",
+      "name_ja": "兵庫県",
+      "type": "県",
+      "romaji": "Hyogo",
+      "region": "近畿"
+    },
+    {
+      "code": "29",
+      "name_ja": "奈良県",
+      "type": "県",
+      "romaji": "Nara",
+      "region": "近畿"
+    },
+    {
+      "code": "30",
+      "name_ja": "和歌山県",
+      "type": "県",
+      "romaji": "Wakayama",
+      "region": "近畿"
+    },
+    {
+      "code": "31",
+      "name_ja": "鳥取県",
+      "type": "県",
+      "romaji": "Tottori",
+      "region": "中国"
+    },
+    {
+      "code": "32",
+      "name_ja": "島根県",
+      "type": "県",
+      "romaji": "Shimane",
+      "region": "中国"
+    },
+    {
+      "code": "33",
+      "name_ja": "岡山県",
+      "type": "県",
+      "romaji": "Okayama",
+      "region": "中国"
+    },
+    {
+      "code": "34",
+      "name_ja": "広島県",
+      "type": "県",
+      "romaji": "Hiroshima",
+      "region": "中国"
+    },
+    {
+      "code": "35",
+      "name_ja": "山口県",
+      "type": "県",
+      "romaji": "Yamaguchi",
+      "region": "中国"
+    },
+    {
+      "code": "36",
+      "name_ja": "徳島県",
+      "type": "県",
+      "romaji": "Tokushima",
+      "region": "四国"
+    },
+    {
+      "code": "37",
+      "name_ja": "香川県",
+      "type": "県",
+      "romaji": "Kagawa",
+      "region": "四国"
+    },
+    {
+      "code": "38",
+      "name_ja": "愛媛県",
+      "type": "県",
+      "romaji": "Ehime",
+      "region": "四国"
+    },
+    {
+      "code": "39",
+      "name_ja": "高知県",
+      "type": "県",
+      "romaji": "Kochi",
+      "region": "四国"
+    },
+    {
+      "code": "40",
+      "name_ja": "福岡県",
+      "type": "県",
+      "romaji": "Fukuoka",
+      "region": "九州"
+    },
+    {
+      "code": "41",
+      "name_ja": "佐賀県",
+      "type": "県",
+      "romaji": "Saga",
+      "region": "九州"
+    },
+    {
+      "code": "42",
+      "name_ja": "長崎県",
+      "type": "県",
+      "romaji": "Nagasaki",
+      "region": "九州"
+    },
+    {
+      "code": "43",
+      "name_ja": "熊本県",
+      "type": "県",
+      "romaji": "Kumamoto",
+      "region": "九州"
+    },
+    {
+      "code": "44",
+      "name_ja": "大分県",
+      "type": "県",
+      "romaji": "Oita",
+      "region": "九州"
+    },
+    {
+      "code": "45",
+      "name_ja": "宮崎県",
+      "type": "県",
+      "romaji": "Miyazaki",
+      "region": "九州"
+    },
+    {
+      "code": "46",
+      "name_ja": "鹿児島県",
+      "type": "県",
+      "romaji": "Kagoshima",
+      "region": "九州"
+    },
+    {
+      "code": "47",
+      "name_ja": "沖縄県",
+      "type": "県",
+      "romaji": "Okinawa",
+      "region": "沖縄"
+    }
+  ],
+  "motif_groups": [
+    {
+      "id": "animals",
+      "label_zh": "動物",
+      "items": [
+        {
+          "id": "rabbit",
+          "label_zh": "兔",
+          "label_ja": "兎／うさぎ",
+          "synonyms": [
+            "兔",
+            "兎",
+            "うさぎ",
+            "ウサギ",
+            "卯",
+            "rabbit"
+          ]
+        },
+        {
+          "id": "cat",
+          "label_zh": "貓",
+          "label_ja": "猫／ねこ",
+          "synonyms": [
+            "貓",
+            "猫",
+            "ねこ",
+            "ネコ",
+            "cat"
+          ]
+        },
+        {
+          "id": "fox",
+          "label_zh": "狐",
+          "label_ja": "狐／きつね",
+          "synonyms": [
+            "狐",
+            "きつね",
+            "キツネ",
+            "白狐",
+            "fox"
+          ]
+        },
+        {
+          "id": "deer",
+          "label_zh": "鹿",
+          "label_ja": "鹿／しか",
+          "synonyms": [
+            "鹿",
+            "しか",
+            "シカ",
+            "deer"
+          ]
+        },
+        {
+          "id": "dog",
+          "label_zh": "狗",
+          "label_ja": "犬／いぬ",
+          "synonyms": [
+            "狗",
+            "犬",
+            "いぬ",
+            "イヌ",
+            "dog"
+          ]
+        },
+        {
+          "id": "horse",
+          "label_zh": "馬",
+          "label_ja": "馬／うま",
+          "synonyms": [
+            "馬",
+            "うま",
+            "ウマ",
+            "horse"
+          ]
+        },
+        {
+          "id": "cow",
+          "label_zh": "牛",
+          "label_ja": "牛／うし",
+          "synonyms": [
+            "牛",
+            "うし",
+            "ウシ",
+            "cow"
+          ]
+        },
+        {
+          "id": "monkey",
+          "label_zh": "猴",
+          "label_ja": "猿／さる",
+          "synonyms": [
+            "猴",
+            "猿",
+            "さる",
+            "サル",
+            "monkey"
+          ]
+        },
+        {
+          "id": "bird",
+          "label_zh": "鳥",
+          "label_ja": "鳥／とり",
+          "synonyms": [
+            "鳥",
+            "とり",
+            "トリ",
+            "bird"
+          ]
+        },
+        {
+          "id": "fish",
+          "label_zh": "魚",
+          "label_ja": "魚／さかな",
+          "synonyms": [
+            "魚",
+            "さかな",
+            "サカナ",
+            "fish"
+          ]
+        },
+        {
+          "id": "frog",
+          "label_zh": "青蛙",
+          "label_ja": "蛙／かえる",
+          "synonyms": [
+            "青蛙",
+            "蛙",
+            "かえる",
+            "カエル",
+            "frog"
+          ]
+        },
+        {
+          "id": "turtle",
+          "label_zh": "龜",
+          "label_ja": "亀／かめ",
+          "synonyms": [
+            "龜",
+            "亀",
+            "かめ",
+            "カメ",
+            "turtle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mythical",
+      "label_zh": "神獸／靈獸",
+      "items": [
+        {
+          "id": "dragon",
+          "label_zh": "龍",
+          "label_ja": "龍／竜／龍神",
+          "synonyms": [
+            "龍",
+            "竜",
+            "りゅう",
+            "リュウ",
+            "龍神",
+            "竜神",
+            "dragon"
+          ]
+        },
+        {
+          "id": "snake",
+          "label_zh": "蛇",
+          "label_ja": "蛇／へび",
+          "synonyms": [
+            "蛇",
+            "へび",
+            "ヘビ",
+            "巳",
+            "白蛇",
+            "white snake",
+            "snake"
+          ]
+        },
+        {
+          "id": "tengu",
+          "label_zh": "天狗",
+          "label_ja": "天狗",
+          "synonyms": [
+            "天狗",
+            "てんぐ",
+            "tengu"
+          ]
+        },
+        {
+          "id": "kitsune",
+          "label_zh": "狐／稻荷使者",
+          "label_ja": "狐／稲荷",
+          "synonyms": [
+            "稻荷",
+            "稲荷",
+            "お稲荷さん",
+            "狐",
+            "白狐",
+            "きつね",
+            "inari",
+            "kitsune"
+          ]
+        },
+        {
+          "id": "komainu",
+          "label_zh": "狛犬",
+          "label_ja": "狛犬",
+          "synonyms": [
+            "狛犬",
+            "こまいぬ",
+            "komainu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deities",
+      "label_zh": "神佛／人物",
+      "items": [
+        {
+          "id": "daikokuten",
+          "label_zh": "大黑天",
+          "label_ja": "大黒天",
+          "synonyms": [
+            "大黑天",
+            "大黒天",
+            "だいこくてん",
+            "Daikokuten"
+          ]
+        },
+        {
+          "id": "ebisu",
+          "label_zh": "惠比壽",
+          "label_ja": "恵比寿／えびす",
+          "synonyms": [
+            "惠比壽",
+            "恵比寿",
+            "えびす",
+            "エビス",
+            "Ebisu"
+          ]
+        },
+        {
+          "id": "jurojin",
+          "label_zh": "壽老人",
+          "label_ja": "寿老人",
+          "synonyms": [
+            "壽老人",
+            "寿老人",
+            "じゅろうじん",
+            "Jurojin"
+          ]
+        },
+        {
+          "id": "fukurokuju",
+          "label_zh": "福祿壽",
+          "label_ja": "福禄寿",
+          "synonyms": [
+            "福祿壽",
+            "福禄寿",
+            "ふくろくじゅ",
+            "Fukurokuju"
+          ]
+        },
+        {
+          "id": "benzaiten",
+          "label_zh": "弁財天",
+          "label_ja": "弁財天",
+          "synonyms": [
+            "弁財天",
+            "弁才天",
+            "べんざいてん",
+            "Benzaiten"
+          ]
+        },
+        {
+          "id": "bishamonten",
+          "label_zh": "毘沙門天",
+          "label_ja": "毘沙門天",
+          "synonyms": [
+            "毘沙門天",
+            "びしゃもんてん",
+            "Bishamonten"
+          ]
+        },
+        {
+          "id": "kannon",
+          "label_zh": "觀音",
+          "label_ja": "観音",
+          "synonyms": [
+            "觀音",
+            "観音",
+            "かんのん",
+            "Kannon"
+          ]
+        },
+        {
+          "id": "jizo",
+          "label_zh": "地藏",
+          "label_ja": "地蔵",
+          "synonyms": [
+            "地藏",
+            "地蔵",
+            "じぞう",
+            "Jizo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objects",
+      "label_zh": "吉祥物件／自然",
+      "items": [
+        {
+          "id": "daruma",
+          "label_zh": "達摩",
+          "label_ja": "だるま／達磨",
+          "synonyms": [
+            "達摩",
+            "達磨",
+            "だるま",
+            "ダルマ",
+            "daruma"
+          ]
+        },
+        {
+          "id": "ema",
+          "label_zh": "繪馬",
+          "label_ja": "絵馬",
+          "synonyms": [
+            "繪馬",
+            "絵馬",
+            "えま",
+            "ema"
+          ]
+        },
+        {
+          "id": "bell",
+          "label_zh": "鈴",
+          "label_ja": "鈴",
+          "synonyms": [
+            "鈴",
+            "すず",
+            "スズ",
+            "bell"
+          ]
+        },
+        {
+          "id": "leaf",
+          "label_zh": "葉／植物",
+          "label_ja": "葉／植物",
+          "synonyms": [
+            "葉",
+            "植物",
+            "桜",
+            "櫻",
+            "梅",
+            "花",
+            "leaf",
+            "flower"
+          ]
+        },
+        {
+          "id": "fish_catcher",
+          "label_zh": "鯛／鯛みくじ",
+          "label_ja": "鯛",
+          "synonyms": [
+            "鯛",
+            "たい",
+            "タイ",
+            "鯛みくじ",
+            "tai"
+          ]
+        },
+        {
+          "id": "fortune_tube",
+          "label_zh": "籤筒／籤物",
+          "label_ja": "みくじ筒",
+          "synonyms": [
+            "籤筒",
+            "みくじ筒",
+            "おみくじ筒"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "label_zh": "地方特色／角色",
+      "items": [
+        {
+          "id": "local_mascot",
+          "label_zh": "地方吉祥物",
+          "label_ja": "ご当地キャラクター",
+          "synonyms": [
+            "地方吉祥物",
+            "ご当地",
+            "ご当地キャラ",
+            "ゆるキャラ",
+            "local mascot"
+          ]
+        },
+        {
+          "id": "festival",
+          "label_zh": "祭典／地方文化",
+          "label_ja": "祭・郷土文化",
+          "synonyms": [
+            "祭典",
+            "祭",
+            "郷土",
+            "地方文化",
+            "festival"
+          ]
+        }
+      ]
+    }
+  ],
+  "special_terms": {
+    "current_confirmed": [
+      "現在確認",
+      "現在有",
+      "目前有",
+      "在售",
+      "販売中",
+      "授与中",
+      "現行"
+    ],
+    "previously_confirmed": [
+      "曾經有",
+      "以前有",
+      "過去有",
+      "販売実績",
+      "授与実績"
+    ],
+    "discontinued": [
+      "已停止",
+      "停產",
+      "停售",
+      "終了",
+      "販売終了",
+      "授与終了",
+      "廃止"
+    ],
+    "price_under": [
+      "以下",
+      "以内",
+      "まで",
+      "under",
+      "below"
+    ]
+  },
+  "search_rules": {
+    "normalization": [
+      "忽略全形／半形空白差異。",
+      "日文平假名可與對應片假名互相匹配。",
+      "中文繁簡差異應盡可能以 synonym dictionary 處理。",
+      "搜尋不應要求使用者輸入正式日文名稱。",
+      "英文常見名稱可作輔助搜尋詞，但資料顯示以日文正式名稱為主。"
+    ],
+    "compound_query": [
+      "多個詞以空白分隔時，預設採 AND。",
+      "例如「京都 兔」代表同時符合京都及兔。",
+      "「500円以下」應解析為價格上限，而不是普通文字。",
+      "「現在確認」應映射至 current_confirmed。",
+      "未能可靠解析的詞仍應作一般全文搜尋。"
+    ],
+    "price_patterns": [
+      "(?:¥|￥|JPY)?\\s*(\\d[\\d,]*)\\s*円?\\s*(?:以下|以内|まで)",
+      "(\\d[\\d,]*)\\s*円\\s*(?:以下|以内|まで)",
+      "(?:under|below|less than)\\s*¥?\\s*(\\d[\\d,]*)"
+    ]
+  }
+}
