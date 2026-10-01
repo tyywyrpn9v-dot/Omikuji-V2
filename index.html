@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="日本御神籤・ゆるみくじ搜尋及收藏資料庫">
+  <meta name="theme-color" content="#f7f3ec">
+  <title>日本御神籤探索</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="日本御神籤探索首頁">
+        <span class="brand-mark" aria-hidden="true">⛩</span>
+        <span>
+          <strong>日本御神籤探索</strong>
+          <small>おみくじ・ゆるみくじ Database</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <button id="shareSearchBtn" class="icon-btn" type="button">複製搜尋</button>
+        <button id="favoritesNavBtn" class="icon-btn" type="button" aria-pressed="false">我的最愛</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">JAPAN OMIKUJI DATABASE</p>
+        <h1>尋找你想收集的御神籤</h1>
+        <p class="hero-copy">按都道府縣、造型或關鍵字搜尋神社・寺院的御神籤及ゆるみくじ。不知道的欄位會留空，不會用推測補上。</p>
+
+        <form id="searchForm" class="search-box">
+          <label for="searchInput" class="sr-only">搜尋御神籤</label>
+          <input id="searchInput" type="search"
+                 placeholder="例如：京都 兔、白蛇、龍、500円以下"
+                 autocomplete="off">
+          <button type="submit">搜尋</button>
+        </form>
+
+        <div class="quick-searches" aria-label="快速搜尋">
+          <button type="button" data-query="兔">🐇 兔</button>
+          <button type="button" data-query="貓">🐈 貓</button>
+          <button type="button" data-query="狐">🦊 狐</button>
+          <button type="button" data-query="蛇">🐍 蛇</button>
+          <button type="button" data-query="龍">🐉 龍</button>
+          <button type="button" data-query="布袋">布袋</button>
+          <button type="button" data-query="曾確認">曾確認</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside class="filters" aria-label="搜尋篩選">
+        <div class="section-title-row">
+          <h2>篩選</h2>
+          <button id="clearFiltersBtn" class="text-btn" type="button">清除</button>
+        </div>
+
+        <label>
+          都道府縣
+          <select id="prefectureFilter">
+            <option value="">全部</option>
+          </select>
+        </label>
+
+        <label>
+          造型／題材
+          <select id="motifFilter">
+            <option value="">全部</option>
+          </select>
+        </label>
+
+        <label>
+          材質
+          <select id="materialFilter">
+            <option value="">全部</option>
+          </select>
+        </label>
+
+        <label>
+          狀態
+          <select id="statusFilter">
+            <option value="">全部</option>
+            <option value="current_confirmed">現在確認</option>
+            <option value="previously_confirmed">曾確認／目前未核實</option>
+            <option value="discontinued">已停止</option>
+          </select>
+        </label>
+
+        <label>
+          價格上限（日圓）
+          <input id="maxPriceFilter" type="number" min="0" step="100" placeholder="例如 500">
+        </label>
+
+        <div class="fav-tools">
+          <button id="exportFavBtn" class="text-btn" type="button">匯出最愛</button>
+          <label class="text-btn file-btn">
+            匯入最愛
+            <input id="importFavInput" type="file" accept="application/json,.json" hidden>
+          </label>
+        </div>
+
+        <div class="filter-note">
+          <strong>資料原則</strong>
+          <p>資料不足時留白，不以推測補值。舊資料亦會保留，並與目前狀態分開。價格未記載的項目不會被價格上限排除。</p>
+        </div>
+      </aside>
+
+      <section class="results-area">
+        <div class="results-toolbar">
+          <div>
+            <h2 id="resultsTitle">全部御神籤</h2>
+            <p id="resultsMeta">正在載入資料…</p>
+          </div>
+          <label class="sort-control">
+            排序
+            <select id="sortSelect">
+              <option value="name">名稱 A–Z</option>
+              <option value="prefecture">都道府縣</option>
+              <option value="priceAsc">價格由低至高</option>
+              <option value="recent">最近核實</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="activeFilters" class="active-filters" aria-live="polite"></div>
+        <div id="results" class="results-grid"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <div class="empty-icon" id="emptyIcon">⌕</div>
+          <h3 id="emptyTitle">找不到符合條件的御神籤</h3>
+          <p id="emptyCopy">可以嘗試移除部分篩選，或使用較短的關鍵字。</p>
+        </div>
+        <button id="loadMoreBtn" class="load-more" type="button" hidden>顯示更多</button>
+      </section>
+    </section>
+  </main>
+
+  <div id="detailModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="關閉">×</button>
+      <div id="modalContent"></div>
+    </article>
+  </div>
+
+  <footer class="site-footer">
+    <p>資料庫架構：accuracy > completeness · 靜態網站</p>
+    <p id="dataUpdated">資料更新：—</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
