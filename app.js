@@ -426,6 +426,7 @@ function createCard(entry) {
       </div>
       <h3 class="card-title">${escapeHtml(entry.name_jp || "未命名御神籤")}</h3>
       <p class="card-subtitle">${escapeHtml(entry.shrine_temple_jp || "")}${entry.prefecture ? " · " + escapeHtml(entry.prefecture) : ""}</p>
+      <p class="card-address">${escapeHtml(placeLine(entry))}</p>
       <span class="status ${status.className}">${status.text}</span>
       <span class="verified">${escapeHtml(verifiedLine(entry))}</span>
     </button>
@@ -434,7 +435,7 @@ function createCard(entry) {
       ${entry.material ? tagButton("material", entry.material, entry.material) : ""}
       ${entry.price ? tagButton("price", entry.price, entry.price) : ""}
     </div>
-    ${entry.source_url ? `<a class="card-source" href="${escapeAttr(entry.source_url)}" target="_blank" rel="noopener noreferrer">開啟來源頁</a>` : ""}
+    ${entry.source_url ? `<p class="card-source-line"><a class="card-source" href="${escapeAttr(entry.source_url)}" target="_blank" rel="noopener noreferrer">來源網站</a><span class="source-plain">${escapeHtml(entry.source_url)}</span></p>` : ""}
   `;
 
   article.querySelectorAll("img").forEach(img => {
@@ -473,6 +474,11 @@ function applyTagFilter(kind, value) {
   }
   applyFilters();
   document.querySelector(".results-area")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function placeLine(entry) {
+  if (entry.address) return entry.address;
+  return [entry.prefecture, entry.city].filter(Boolean).join("") || "地址未記載";
 }
 
 function verifiedLine(entry) {

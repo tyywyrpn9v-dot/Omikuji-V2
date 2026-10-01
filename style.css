@@ -361,11 +361,23 @@ h2 {
 
 .tags { padding: 0 17px 8px; }
 
-.card-source {
-  display: inline-block;
-  margin: 0 17px 14px;
-  color: var(--accent);
+.card-address {
+  margin: 0 0 8px;
+  color: var(--ink);
   font-size: 12px;
+  line-height: 1.45;
+}
+
+.card-source-line {
+  margin: 0 17px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.card-source {
+  color: var(--accent);
+  font-size: 13px;
   font-weight: 700;
 }
 
