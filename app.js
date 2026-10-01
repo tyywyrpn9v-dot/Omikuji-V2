@@ -10,6 +10,7 @@ const state = {
   favoritesOnly: false,
   sort: "name",
   shown: PAGE_SIZE,
+  exactPrice: "",
   loadError: ""
 };
 
@@ -75,6 +76,7 @@ function bindEvents() {
     event.preventDefault();
     state.query = els.searchInput.value.trim();
     state.favoritesOnly = false;
+    state.exactPrice = "";
     state.shown = PAGE_SIZE;
     applyFilters();
   });
@@ -82,6 +84,7 @@ function bindEvents() {
   els.searchInput.addEventListener("input", () => {
     state.query = els.searchInput.value.trim();
     state.favoritesOnly = false;
+    state.exactPrice = "";
     state.shown = PAGE_SIZE;
     applyFilters();
   });
@@ -126,28 +129,47 @@ function bindEvents() {
   els.exportFavBtn.addEventListener("click", exportFavorites);
   els.importFavInput.addEventListener("change", importFavorites);
 
-  document.querySelectorAll("[data-query]").forEach(button => {
-    button.addEventListener("click", () => {
-      els.searchInput.value = button.dataset.query;
-      state.query = button.dataset.query;
-      state.favoritesOnly = false;
-      state.shown = PAGE_SIZE;
-      applyFilters();
-    });
-  });
-
   document.addEventListener("click", (event) => {
+    const quick = event.target.closest("[data-query]");
+    if (quick) {
+      event.preventDefault();
+      els.searchInput.value = quick.dataset.query || "";
+      state.query = quick.dataset.query || "";
+      state.favoritesOnly = false;
+      state.exactPrice = "";
+      state.shown = PAGE_SIZE;
+      els.motif.value = "";
+      els.material.value = "";
+      els.prefecture.value = "";
+      els.status.value = "";
+      els.maxPrice.value = "";
+      applyFilters();
+      document.querySelector(".results-area")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
+    const tag = event.target.closest("[data-filter-kind]");
+    if (tag) {
+      event.preventDefault();
+      event.stopPropagation();
+      applyTagFilter(tag.dataset.filterKind, tag.dataset.filterValue || "");
+      return;
+    }
+
     const favoriteButton = event.target.closest("[data-favorite-id]");
     if (favoriteButton) {
+      event.preventDefault();
       event.stopPropagation();
       toggleFavorite(favoriteButton.dataset.favoriteId);
       return;
     }
 
+    if (event.target.closest("a")) return;
+
     const cardButton = event.target.closest("[data-entry-id]");
     if (cardButton) openDetail(cardButton.dataset.entryId);
 
-    if (event.target.matches("[data-close-modal]")) closeModal();
+    if (event.target.closest("[data-close-modal]")) closeModal();
   });
 
   document.addEventListener("keydown", (event) => {
@@ -209,6 +231,7 @@ function applyFilters() {
     if (els.motif.value && !(entry.motif || []).includes(els.motif.value)) return false;
     if (els.material.value && entry.material !== els.material.value) return false;
     if (els.status.value && entry.status !== els.status.value) return false;
+    if (state.exactPrice && entry.price !== state.exactPrice) return false;
     if (maxPrice) {
       const price = parsePrice(entry.price);
       if (price && price > maxPrice) return false;
@@ -360,7 +383,7 @@ function render() {
 function hasActiveQuery() {
   return Boolean(
     state.query || state.favoritesOnly || els.prefecture.value || els.motif.value ||
-    els.material.value || els.status.value || els.maxPrice.value
+    els.material.value || els.status.value || els.maxPrice.value || state.exactPrice
   );
 }
 
@@ -378,6 +401,7 @@ function renderActiveFilters() {
   if (els.material.value) chips.push(els.material.value);
   if (els.status.value) chips.push(statusLabel(els.status.value).text);
   if (els.maxPrice.value) chips.push(`${els.maxPrice.value}円以下`);
+  if (state.exactPrice) chips.push(state.exactPrice);
   if (state.favoritesOnly) chips.push("只看最愛");
   els.activeFilters.innerHTML = chips.map(text => `<span class="filter-chip">${escapeHtml(text)}</span>`).join("");
 }
@@ -397,22 +421,58 @@ function createCard(entry) {
     <button class="card-main" type="button" data-entry-id="${escapeAttr(entry.id)}">
       <div class="card-image">
         ${image
-          ? `<img src="${escapeAttr(image)}" alt="${escapeAttr(entry.name_jp || "御神籤")}">`
+          ? `<img src="${escapeAttr(image)}" alt="${escapeAttr(entry.name_jp || "御神籤")}" referrerpolicy="no-referrer">`
           : `<span class="image-placeholder">⛩</span>`}
       </div>
       <h3 class="card-title">${escapeHtml(entry.name_jp || "未命名御神籤")}</h3>
       <p class="card-subtitle">${escapeHtml(entry.shrine_temple_jp || "")}${entry.prefecture ? " · " + escapeHtml(entry.prefecture) : ""}</p>
-      <div class="tags">
-        ${(entry.motif || []).slice(0, 4).map(m => `<span class="tag">${escapeHtml(motifLabel(m))}</span>`).join("")}
-        ${entry.material ? `<span class="tag">${escapeHtml(entry.material)}</span>` : ""}
-        ${entry.price ? `<span class="tag">${escapeHtml(entry.price)}</span>` : ""}
-      </div>
       <span class="status ${status.className}">${status.text}</span>
       <span class="verified">${escapeHtml(verifiedLine(entry))}</span>
     </button>
+    <div class="tags">
+      ${(entry.motif || []).slice(0, 4).map(m => tagButton("motif", m, motifLabel(m))).join("")}
+      ${entry.material ? tagButton("material", entry.material, entry.material) : ""}
+      ${entry.price ? tagButton("price", entry.price, entry.price) : ""}
+    </div>
+    ${entry.source_url ? `<a class="card-source" href="${escapeAttr(entry.source_url)}" target="_blank" rel="noopener noreferrer">開啟來源頁</a>` : ""}
   `;
 
+  article.querySelectorAll("img").forEach(img => {
+    img.addEventListener("error", () => {
+      const box = img.parentElement;
+      img.remove();
+      if (box && !box.querySelector(".image-placeholder")) {
+        box.insertAdjacentHTML("beforeend", "<span class=\"image-placeholder\">⛩</span>");
+      }
+    });
+  });
+
   return article;
+}
+
+function tagButton(kind, value, label) {
+  return `<button type="button" class="tag" data-filter-kind="${escapeAttr(kind)}" data-filter-value="${escapeAttr(value)}">${escapeHtml(label)}</button>`;
+}
+
+function applyTagFilter(kind, value) {
+  state.shown = PAGE_SIZE;
+  state.favoritesOnly = false;
+  state.query = "";
+  state.exactPrice = "";
+  els.searchInput.value = "";
+  if (kind === "motif") {
+    els.motif.value = value;
+    els.material.value = "";
+  } else if (kind === "material") {
+    els.material.value = value;
+    els.motif.value = "";
+  } else if (kind === "price") {
+    state.exactPrice = value;
+    els.motif.value = "";
+    els.material.value = "";
+  }
+  applyFilters();
+  document.querySelector(".results-area")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function verifiedLine(entry) {
@@ -429,7 +489,7 @@ function openDetail(id) {
   const maps = entry.google_maps_url || "";
 
   els.modalContent.innerHTML = `
-    ${image ? `<img class="detail-image" src="${escapeAttr(image)}" alt="${escapeAttr(entry.name_jp || "御神籤")}">` : ""}
+    ${image ? `<img class="detail-image" src="${escapeAttr(image)}" alt="${escapeAttr(entry.name_jp || "御神籤")}" referrerpolicy="no-referrer">` : ""}
     <div class="detail-header">
       <h2 id="modalTitle">${escapeHtml(entry.name_jp || "未命名御神籤")}</h2>
       <p class="detail-jp">${escapeHtml(entry.shrine_temple_jp || "")}</p>
@@ -456,12 +516,12 @@ function openDetail(id) {
     <section class="detail-section">
       <h3>資料來源</h3>
       ${entry.source_url
-        ? `<a class="source-link" href="${escapeAttr(entry.source_url)}" target="_blank" rel="noopener">${escapeHtml(entry.source_title || "來源")}</a>`
+        ? `<p><a class="source-link" href="${escapeAttr(entry.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.source_title || "來源")}</a></p><p class="source-plain">${escapeHtml(entry.source_url)}</p>`
         : "<p>—</p>"}
       ${(entry.official_url || "").trim()
         ? `<a class="source-link" href="${escapeAttr(entry.official_url)}" target="_blank" rel="noopener">官方網站</a>`
         : ""}
-      <p class="verified">來源頁不等于神社仍在授與。請以官方或現場為準。</p>
+      <p class="verified">來源頁不等于神社仍在授予。請以官方或現場為準。</p>
     </section>
 
     <dl class="detail-grid">
@@ -500,6 +560,7 @@ function clearFilters() {
   state.query = "";
   state.favoritesOnly = false;
   state.sort = "name";
+  state.exactPrice = "";
   state.shown = PAGE_SIZE;
   els.searchInput.value = "";
   els.prefecture.value = "";

@@ -160,6 +160,8 @@ h1 {
 }
 
 .quick-searches {
+  position: relative;
+  z-index: 3;
   margin-top: 15px;
   display: flex;
   justify-content: center;
@@ -347,9 +349,30 @@ h2 {
 
 .tag {
   padding: 3px 7px;
+  border: 0;
   border-radius: 6px;
   background: var(--soft);
   font-size: 11px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tag:hover { background: #e4d8c8; color: var(--ink); }
+
+.tags { padding: 0 17px 8px; }
+
+.card-source {
+  display: inline-block;
+  margin: 0 17px 14px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.source-plain {
+  margin: 6px 0 0;
+  font-size: 12px;
+  word-break: break-all;
   color: var(--muted);
 }
 

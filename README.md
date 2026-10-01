@@ -10,8 +10,8 @@
 - `schema.json` 只強制 `id`、`name_jp`、`shrine_temple_jp`、`prefecture`、`status`、`source_url`。其餘可留空。
 - 最愛可匯出、匯入 JSON。
 - 超過 24 筆時分頁顯示。
-- `data/omikuji.json` 放入首批「曾確認」紀錄。價格與授與狀況來自公開收集頁，不是現場現貨確認。沒有圖片，避免外連他人照片。
+- `data/omikuji.json` 放入首批「曾確認」紀錄。價格與授予狀況來自公開收集頁，不是現場現貨確認。沒有圖片，避免外連他人照片。
 
 ## 注意
 
-`previously_confirmed` 表示來源曾經記載，不代表今天仍在授與。升成 `current_confirmed` 之前，請向官方或現場再核對，並填上 `last_verified_date`。
+`previously_confirmed` 表示來源曾經記載，不代表今天仍在授予。升成 `current_confirmed` 之前，請向官方或現場再核對，並填上 `last_verified_date`。
