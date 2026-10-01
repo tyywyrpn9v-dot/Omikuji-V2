@@ -1,7 +1,7 @@
 const DATA_URL = "data/omikuji.json";
 const SYNONYMS_URL = "data/synonyms.json";
 const CHANGELOG_URL = "updates/changelog.json";
-const PAGE_SIZE = 24;
+const PAGE_SIZE = 200;
 
 const state = {
   entries: [],
@@ -36,8 +36,6 @@ const els = {
   clearFiltersBtn: document.querySelector("#clearFiltersBtn"),
   loadMoreBtn: document.querySelector("#loadMoreBtn"),
   shareSearchBtn: document.querySelector("#shareSearchBtn"),
-  exportFavBtn: document.querySelector("#exportFavBtn"),
-  importFavInput: document.querySelector("#importFavInput"),
   dataUpdated: document.querySelector("#dataUpdated")
 };
 
@@ -125,9 +123,6 @@ function bindEvents() {
       toast(url);
     }
   });
-
-  els.exportFavBtn.addEventListener("click", exportFavorites);
-  els.importFavInput.addEventListener("change", importFavorites);
 
   document.addEventListener("click", (event) => {
     const quick = event.target.closest("[data-query]");
@@ -364,9 +359,10 @@ function render() {
   } else {
     els.resultsTitle.textContent = state.favoritesOnly ? "我的最愛" : (hasActiveQuery() ? "搜尋結果" : "全部御神籤");
     const shown = Math.min(state.shown, state.filtered.length);
+    const total = state.entries.length;
     els.resultsMeta.textContent = shown < state.filtered.length
-      ? `顯示 ${shown} / ${state.filtered.length} 項`
-      : `共 ${state.filtered.length} 項`;
+      ? `顯示 ${shown} / ${state.filtered.length} 項 · 資料庫共 ${total} 項`
+      : `共 ${state.filtered.length} 項 · 資料庫共 ${total} 項`;
   }
 
   renderActiveFilters();
@@ -592,33 +588,6 @@ function toggleFavorite(id) {
   else favorites.add(id);
   localStorage.setItem("omikujiFavorites", JSON.stringify([...favorites]));
   applyFilters();
-}
-
-function exportFavorites() {
-  const blob = new Blob([JSON.stringify({ favorites: [...getFavorites()] }, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "omikuji-favorites.json";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-async function importFavorites(event) {
-  const file = event.target.files?.[0];
-  event.target.value = "";
-  if (!file) return;
-  try {
-    const data = JSON.parse(await file.text());
-    const ids = Array.isArray(data) ? data : data.favorites;
-    if (!Array.isArray(ids)) throw new Error("bad file");
-    const merged = new Set([...getFavorites(), ...ids.map(String)]);
-    localStorage.setItem("omikujiFavorites", JSON.stringify([...merged]));
-    applyFilters();
-    toast(`已匯入 ${ids.length} 筆收藏`);
-  } catch {
-    toast("匯入失敗：請使用本站匯出的 JSON");
-  }
 }
 
 function parsePrice(value) {
