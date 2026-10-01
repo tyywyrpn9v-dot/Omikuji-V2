@@ -1678,5 +1678,1288 @@
       "シマエナガ"
     ],
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42.9321329,143.2088196"
+  },
+  {
+    "id": "temanekiinumikujibrown-koishikawadaijingu",
+    "name_jp": "手招喜犬みくじ (茶)",
+    "shrine_temple_jp": "小石川大神宮",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "文京区",
+    "address": "〒112-0002 東京都文京区小石川二丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7094265,139.7492232",
+    "images": [
+      "assets/photos/temanekiinumikujibrown-koishikawadaijingu.webp"
+    ],
+    "motif": [
+      "いぬ"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/temanekiinumikujibrown-koishikawadaijingu/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "狗",
+      "犬"
+    ]
+  },
+  {
+    "id": "shirohebiomikuji-shirakojinja",
+    "name_jp": "白蛇おみくじ",
+    "shrine_temple_jp": "白子神社",
+    "institution_type": "神社",
+    "prefecture": "千葉県",
+    "city": "長生郡 白子町",
+    "address": "千葉県長生郡 白子町",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/shirohebiomikuji-shirakojinja.jpg"
+    ],
+    "motif": [
+      "へび"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/shirohebiomikuji-shirakojinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "蛇"
+    ]
+  },
+  {
+    "id": "otamamikuji-tamajinja",
+    "name_jp": "おたまみくじ",
+    "shrine_temple_jp": "田間神社",
+    "institution_type": "神社",
+    "prefecture": "千葉県",
+    "city": "東金市",
+    "address": "〒283-0005 千葉県東金市田間二丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.5715742,140.3705822",
+    "images": [
+      "assets/photos/otamamikuji-tamajinja.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/otamamikuji-tamajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "kaerumikuji-tamajinja",
+    "name_jp": "かえるみくじ",
+    "shrine_temple_jp": "田間神社",
+    "institution_type": "神社",
+    "prefecture": "千葉県",
+    "city": "東金市",
+    "address": "〒283-0005 千葉県東金市田間二丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.5715742,140.3705822",
+    "images": [
+      "assets/photos/kaerumikuji-tamajinja.jpg"
+    ],
+    "motif": [
+      "かえる"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/kaerumikuji-tamajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "蛙"
+    ]
+  },
+  {
+    "id": "kaerumikuji-tsukubasanjinja",
+    "name_jp": "かえるみくじ",
+    "shrine_temple_jp": "筑波山神社",
+    "institution_type": "神社",
+    "prefecture": "茨城県",
+    "city": "つくば市",
+    "address": "茨城県つくば市",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/kaerumikuji-tsukubasanjinja.jpg"
+    ],
+    "motif": [
+      "かえる"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/kaerumikuji-tsukubasanjinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "蛙"
+    ]
+  },
+  {
+    "id": "temanekiinumikujiblack-koishikawadaijingu",
+    "name_jp": "手招喜犬みくじ (黒)",
+    "shrine_temple_jp": "小石川大神宮",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "文京区",
+    "address": "〒112-0002 東京都文京区小石川二丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7094265,139.7492232",
+    "images": [
+      "assets/photos/temanekiinumikujiblack-koishikawadaijingu.jpg"
+    ],
+    "motif": [
+      "いぬ"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/temanekiinumikujiblack-koishikawadaijingu/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "狗",
+      "犬"
+    ]
+  },
+  {
+    "id": "omikujifuroshiki-imadojinja",
+    "name_jp": "おみくじ (風呂敷)",
+    "shrine_temple_jp": "今戸神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "〒111-0024 東京都台東区今戸一丁目石浜通り",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7192038,139.8035070",
+    "images": [
+      "assets/photos/omikujifuroshiki-imadojinja.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "紙・布",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/omikujifuroshiki-imadojinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "temanekinekomikuji-mishimajinja",
+    "name_jp": "手招き猫みくじ",
+    "shrine_temple_jp": "三島神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "〒110-0004 東京都台東区下谷三丁目金杉通り",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7247010,139.7861395",
+    "images": [
+      "assets/photos/temanekinekomikuji-mishimajinja.jpg"
+    ],
+    "motif": [
+      "ねこ"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/temanekinekomikuji-mishimajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "貓",
+      "猫"
+    ]
+  },
+  {
+    "id": "nekomikujikannushi-osugijinja",
+    "name_jp": "猫御籤(神主)",
+    "shrine_temple_jp": "大杉神社",
+    "institution_type": "神社",
+    "prefecture": "茨城県",
+    "city": "稲敷市",
+    "address": "〒300-0699 茨城県稲敷市阿波",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.9522474,140.3826995",
+    "images": [
+      "assets/photos/nekomikujikannushi-osugijinja.jpg"
+    ],
+    "motif": [
+      "ねこ"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/nekomikujikannushi-osugijinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "貓",
+      "猫"
+    ]
+  },
+  {
+    "id": "yatagarasunogoshinzoomikuji-kumanochokumanojinja",
+    "name_jp": "八咫烏の御神像 -烏滸鳥- (おみくじ付き)",
+    "shrine_temple_jp": "熊野町熊野神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "板橋区",
+    "address": "東京都板橋区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/yatagarasunogoshinzoomikuji-kumanochokumanojinja.jpg"
+    ],
+    "motif": [
+      "八咫烏"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/yatagarasunogoshinzoomikuji-kumanochokumanojinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "烏",
+      "鳥"
+    ]
+  },
+  {
+    "id": "taiammikujigreen-koamijinja",
+    "name_jp": "大安みくじ (緑)",
+    "shrine_temple_jp": "小網神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "中央区",
+    "address": "〒103-0023 東京都中央区日本橋小網町",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.6841674,139.7804475",
+    "images": [
+      "assets/photos/taiammikujigreen-koamijinja.webp"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "600円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/taiammikujigreen-koamijinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "goryujinomikujiseiryukotaku-tanashijinja",
+    "name_jp": "五龍神おみくじ (青龍神/光沢仕様)",
+    "shrine_temple_jp": "田無神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "西東京市",
+    "address": "〒188-8666 東京都西東京市田無町三丁目所沢街道",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7298951,139.5440509",
+    "images": [
+      "assets/photos/goryujinomikujiseiryukotaku-tanashijinja.jpg"
+    ],
+    "motif": [
+      "龍"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/goryujinomikujiseiryukotaku-tanashijinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "龍",
+      "竜"
+    ]
+  },
+  {
+    "id": "etomikujitatsudoshiwhite-yushimatemmangu",
+    "name_jp": "干支みくじ （辰）",
+    "shrine_temple_jp": "湯島天満宮",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "文京区",
+    "address": "〒113-0034 東京都文京区湯島三丁目1",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7076902,139.7680519",
+    "images": [
+      "assets/photos/etomikujitatsudoshiwhite-yushimatemmangu.webp"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/etomikujitatsudoshiwhite-yushimatemmangu/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "omikujitsukikoikoimamoriwhite-wakeoejinja",
+    "name_jp": "おみくじつき 恋鯉守り",
+    "shrine_temple_jp": "別小江神社",
+    "institution_type": "神社",
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "〒462-0032 愛知県名古屋市北区辻町六丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.2104344,136.9209518",
+    "images": [
+      "assets/photos/omikujitsukikoikoimamoriwhite-wakeoejinja.webp"
+    ],
+    "motif": [
+      "鯉"
+    ],
+    "material": "紙・布",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/omikujitsukikoikoimamoriwhite-wakeoejinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "omikujikingyosukui-wakeoejinja",
+    "name_jp": "おみくじ きんぎょすくい",
+    "shrine_temple_jp": "別小江神社",
+    "institution_type": "神社",
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "〒462-0032 愛知県名古屋市北区辻町六丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.2104344,136.9209518",
+    "images": [
+      "assets/photos/omikujikingyosukui-wakeoejinja.webp"
+    ],
+    "motif": [
+      "金魚"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/omikujikingyosukui-wakeoejinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚",
+      "金魚"
+    ]
+  },
+  {
+    "id": "kibunaomikuji-utsunomiyafutaarayamajinja",
+    "name_jp": "黄ぶなおみくじ",
+    "shrine_temple_jp": "宇都宮二荒山神社",
+    "institution_type": "神社",
+    "prefecture": "栃木県",
+    "city": "宇都宮市",
+    "address": "〒320-0803 栃木県宇都宮市馬場通り三丁目大通り",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36.5624100,139.8856359",
+    "images": [
+      "assets/photos/kibunaomikuji-utsunomiyafutaarayamajinja.webp"
+    ],
+    "motif": [
+      "魚"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/kibunaomikuji-utsunomiyafutaarayamajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "negaikanaemasumikujilaketrout-nikkofutarasanjinjachugushi",
+    "name_jp": "願い叶えます みくじ",
+    "shrine_temple_jp": "日光二荒山神社中宮祠",
+    "institution_type": "神社",
+    "prefecture": "栃木県",
+    "city": "日光市",
+    "address": "栃木県日光市",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/negaikanaemasumikujilaketrout-nikkofutarasanjinjachugushi.jpg"
+    ],
+    "motif": [
+      "魚"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/negaikanaemasumikujilaketrout-nikkofutarasanjinjachugushi/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚",
+      "鱒"
+    ]
+  },
+  {
+    "id": "ryoenaitaimikujipalepink-kawagoehikawajinja",
+    "name_jp": "良縁あい鯛みくじ (薄ピンク)",
+    "shrine_temple_jp": "川越氷川神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "〒350-0053 埼玉県川越市氷川町宮下町一丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.9271396,139.4887762",
+    "images": [
+      "assets/photos/ryoenaitaimikujipalepink-kawagoehikawajinja.webp"
+    ],
+    "motif": [
+      "鯛"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/ryoenaitaimikujipalepink-kawagoehikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "ryoenaitaimikujiwhite-kawagoehikawajinja",
+    "name_jp": "良縁あい鯛みくじ (白)",
+    "shrine_temple_jp": "川越氷川神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "〒350-0053 埼玉県川越市氷川町宮下町一丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.9271396,139.4887762",
+    "images": [
+      "assets/photos/ryoenaitaimikujiwhite-kawagoehikawajinja.webp"
+    ],
+    "motif": [
+      "鯛"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/ryoenaitaimikujiwhite-kawagoehikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "ryoenaitaimikujilightorange-kawagoehikawajinja",
+    "name_jp": "良縁あい鯛みくじ (薄オレンジ)",
+    "shrine_temple_jp": "川越氷川神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "〒350-0053 埼玉県川越市氷川町宮下町一丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.9271396,139.4887762",
+    "images": [
+      "assets/photos/ryoenaitaimikujilightorange-kawagoehikawajinja.webp"
+    ],
+    "motif": [
+      "鯛"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/ryoenaitaimikujilightorange-kawagoehikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "魚"
+    ]
+  },
+  {
+    "id": "harikoetomikujiushidoshi-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (丑年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujiushidoshi-akasakahikawajinja.jpg"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujiushidoshi-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "harikoetomikujitoradoshi-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (寅年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujitoradoshi-akasakahikawajinja.webp"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujitoradoshi-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "harikoetomikujitatsudoshi-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (辰年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujitatsudoshi-akasakahikawajinja.jpg"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujitatsudoshi-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "harikoetomikujimidoshi-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (巳年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujimidoshi-akasakahikawajinja.webp"
+    ],
+    "motif": [
+      "干支",
+      "へび"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujimidoshi-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。 圖鑑頁標題寫成辰年，網址為巳年，名稱改依網址。",
+    "search_terms": [
+      "干支",
+      "蛇",
+      "巳"
+    ]
+  },
+  {
+    "id": "harikoetomikujiumadoshi-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (午年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujiumadoshi-akasakahikawajinja.webp"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujiumadoshi-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "harikoetomikujihitsujidoshi-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (未年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujihitsujidoshi-akasakahikawajinja.jpg"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujihitsujidoshi-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "harikoetomikujimonkey-akasakahikawajinja",
+    "name_jp": "はりこ干支みくじ (申年)",
+    "shrine_temple_jp": "赤坂氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/harikoetomikujimonkey-akasakahikawajinja.jpg"
+    ],
+    "motif": [
+      "干支"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/harikoetomikujimonkey-akasakahikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "干支"
+    ]
+  },
+  {
+    "id": "ichiryumambaimikuji-hebikubojinja",
+    "name_jp": "一粒万倍みくじ",
+    "shrine_temple_jp": "蛇窪神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "品川区",
+    "address": "〒142-0043 東京都品川区二葉四丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.6026206,139.7153913",
+    "images": [
+      "assets/photos/ichiryumambaimikuji-hebikubojinja.webp"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/ichiryumambaimikuji-hebikubojinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "gamansamamikujigold-kikunajinja",
+    "name_jp": "がまんさま みくじ(青龍/金)",
+    "shrine_temple_jp": "菊名神社",
+    "institution_type": "神社",
+    "prefecture": "神奈川県",
+    "city": "横浜市",
+    "address": "〒222-0011 神奈川県横浜市港北区6-5-14",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.5119689,139.6326710",
+    "images": [
+      "assets/photos/gamansamamikujigold-kikunajinja.jpg"
+    ],
+    "motif": [
+      "龍",
+      "がまんさま"
+    ],
+    "material": "セラミック",
+    "price": "400円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/gamansamamikujigold-kikunajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "龍",
+      "竜",
+      "神明"
+    ]
+  },
+  {
+    "id": "gamansamamikujigembugreen-kikunajinja",
+    "name_jp": "がまんさま みくじ(玄武/緑)",
+    "shrine_temple_jp": "菊名神社",
+    "institution_type": "神社",
+    "prefecture": "神奈川県",
+    "city": "横浜市",
+    "address": "〒222-0011 神奈川県横浜市港北区6-5-14",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.5119689,139.6326710",
+    "images": [
+      "assets/photos/gamansamamikujigembugreen-kikunajinja.jpg"
+    ],
+    "motif": [
+      "がまんさま"
+    ],
+    "material": "セラミック",
+    "price": "400円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/gamansamamikujigembugreen-kikunajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "神明"
+    ]
+  },
+  {
+    "id": "gamansamamikujigembusilver-kikunajinja",
+    "name_jp": "がまんさま みくじ(玄武/銀)",
+    "shrine_temple_jp": "菊名神社",
+    "institution_type": "神社",
+    "prefecture": "神奈川県",
+    "city": "横浜市",
+    "address": "〒222-0011 神奈川県横浜市港北区6-5-14",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.5119689,139.6326710",
+    "images": [
+      "assets/photos/gamansamamikujigembusilver-kikunajinja.jpg"
+    ],
+    "motif": [
+      "がまんさま"
+    ],
+    "material": "セラミック",
+    "price": "400円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/gamansamamikujigembusilver-kikunajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "神明"
+    ]
+  },
+  {
+    "id": "gamansamamikujigreyyellow-kikunajinja",
+    "name_jp": "がまんさま みくじ",
+    "shrine_temple_jp": "菊名神社",
+    "institution_type": "神社",
+    "prefecture": "神奈川県",
+    "city": "横浜市",
+    "address": "〒222-0011 神奈川県横浜市港北区6-5-14",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.5119689,139.6326710",
+    "images": [
+      "assets/photos/gamansamamikujigreyyellow-kikunajinja.jpg"
+    ],
+    "motif": [
+      "がまんさま"
+    ],
+    "material": "セラミック",
+    "price": "400円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/gamansamamikujigreyyellow-kikunajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "神明"
+    ]
+  },
+  {
+    "id": "ogubentenharikomikuji-oguhachimanjinja",
+    "name_jp": "尾久弁天 張子みくじ",
+    "shrine_temple_jp": "尾久八幡神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "荒川区",
+    "address": "東京都荒川区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/ogubentenharikomikuji-oguhachimanjinja.jpg"
+    ],
+    "motif": [
+      "弁天"
+    ],
+    "material": "張り子",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/ogubentenharikomikuji-oguhachimanjinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "神明"
+    ]
+  },
+  {
+    "id": "haniwaomamoriomikuji-asakusajinja",
+    "name_jp": "はにわ御守 （おみくじ付）",
+    "shrine_temple_jp": "浅草神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/haniwaomamoriomikuji-asakusajinja.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "紙・布",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/haniwaomamoriomikuji-asakusajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "yakyuborumikuji-koishikawadaijingu",
+    "name_jp": "野球ボールみくじ",
+    "shrine_temple_jp": "小石川大神宮",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "文京区",
+    "address": "〒112-0002 東京都文京区小石川二丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7094265,139.7492232",
+    "images": [
+      "assets/photos/yakyuborumikuji-koishikawadaijingu.webp"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/yakyuborumikuji-koishikawadaijingu/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": []
+  },
+  {
+    "id": "karasutenguomamorimikuji-kawagoekumanojinja",
+    "name_jp": "烏天狗御守みくじ",
+    "shrine_temple_jp": "川越熊野神社",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "埼玉県川越市",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/karasutenguomamorimikuji-kawagoekumanojinja.webp"
+    ],
+    "motif": [
+      "天狗"
+    ],
+    "material": "紙・布",
+    "price": "800円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/karasutenguomamorimikuji-kawagoekumanojinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "天狗"
+    ]
+  },
+  {
+    "id": "natsumodegenteiyoyomikujiwhite-shitayajinja",
+    "name_jp": "夏詣限定 ヨーヨーおみくじ",
+    "shrine_temple_jp": "下谷神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "〒111-0041 東京都台東区東上野三丁目",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.7108259,139.7813322",
+    "images": [
+      "assets/photos/natsumodegenteiyoyomikujiwhite-shitayajinja.webp"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/natsumodegenteiyoyomikujiwhite-shitayajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "ikebukurofujizukaomikuji-ikebukurohikawajinja",
+    "name_jp": "池袋 富士塚おみくじ",
+    "shrine_temple_jp": "池袋氷川神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "address": "東京都豊島区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/ikebukurofujizukaomikuji-ikebukurohikawajinja.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/ikebukurofujizukaomikuji-ikebukurohikawajinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "omikujihato-togoshihachimanjinja",
+    "name_jp": "おみくじ(ハート)",
+    "shrine_temple_jp": "戸越八幡神社",
+    "institution_type": "神社",
+    "prefecture": "東京都",
+    "city": "品川区",
+    "address": "東京都品川区",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/omikujihato-togoshihachimanjinja.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "400円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/omikujihato-togoshihachimanjinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "omikujishishimai-osugijinja",
+    "name_jp": "おみくじ(獅子舞)",
+    "shrine_temple_jp": "大杉神社",
+    "institution_type": "神社",
+    "prefecture": "茨城県",
+    "city": "稲敷市",
+    "address": "〒300-0699 茨城県稲敷市阿波",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35.9522474,140.3826995",
+    "images": [
+      "assets/photos/omikujishishimai-osugijinja.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "300円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/omikujishishimai-osugijinja/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
+  },
+  {
+    "id": "kakigorimikujimeron-kawagoehachimangu",
+    "name_jp": "かき氷みくじ （メロン）",
+    "shrine_temple_jp": "川越八幡宮",
+    "institution_type": "神社",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "埼玉県川越市",
+    "google_maps_url": "",
+    "images": [
+      "assets/photos/kakigorimikujimeron-kawagoehachimangu.jpg"
+    ],
+    "motif": [
+      "その他"
+    ],
+    "material": "セラミック",
+    "price": "500円",
+    "notes": "價格與授予狀況來自公開收集紀錄，本筆未再向神社官方核對是否仍在授予。未知欄位留空。",
+    "source_url": "https://yashirocollection.com/omikuji-gallery/yurumikuji/kakigorimikujimeron-kawagoehachimangu/",
+    "source_title": "社これくしょん",
+    "source_published_date": "",
+    "data_retrieved_date": "2026-09-30",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-09-30 自社これくしょん個別頁整理。狀態為曾確認，不是現場現貨確認。",
+    "search_terms": [
+      "その他"
+    ]
   }
 ]
