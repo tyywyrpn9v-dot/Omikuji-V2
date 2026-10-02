@@ -8,7 +8,7 @@ const state = {
   filtered: [],
   query: "",
   favoritesOnly: false,
-  sort: "name",
+  sort: "addedDesc",
   shown: PAGE_SIZE,
   exactPrice: "",
   loadError: ""
@@ -55,6 +55,9 @@ async function init() {
 
     state.entries = await dataResponse.json();
     if (!Array.isArray(state.entries)) throw new Error("Database is not an array");
+    state.entries.forEach((entry, index) => {
+      entry._addedIndex = index;
+    });
     state.synonyms = await synonymsResponse.json();
     populateFilters();
     applyUrlToControls();
@@ -180,15 +183,23 @@ function bindEvents() {
 }
 
 function populateFilters() {
-  fillSelect(els.prefecture, unique(state.entries.map(e => e.prefecture).filter(Boolean)));
+  const prefs = unique(state.entries.map(e => e.prefecture).filter(Boolean));
+  fillSelect(els.prefecture, prefs, comparePrefecture);
   fillSelect(els.motif, unique(state.entries.flatMap(e => e.motif || [])));
   fillSelect(els.material, unique(state.entries.map(e => e.material).filter(Boolean)));
 }
 
-function fillSelect(select, values) {
+function comparePrefecture(a, b) {
+  const order = (state.synonyms?.prefectures || []).map(p => p.name_ja);
+  const ia = order.indexOf(a);
+  const ib = order.indexOf(b);
+  return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+}
+
+function fillSelect(select, values, compare) {
   const current = select.value;
   while (select.options.length > 1) select.remove(1);
-  values.sort((a, b) => String(a).localeCompare(String(b), "ja"));
+  values.sort(compare || ((a, b) => String(a).localeCompare(String(b), "ja")));
   for (const value of values) {
     const option = document.createElement("option");
     option.value = value;
@@ -320,16 +331,21 @@ function searchableText(entry) {
 }
 
 function getSortFunction() {
-  if (state.sort === "prefecture") {
-    return (a, b) => `${a.prefecture}${a.name_jp}`.localeCompare(`${b.prefecture}${b.name_jp}`, "ja");
+  const added = entry => Number.isFinite(entry._addedIndex) ? entry._addedIndex : 0;
+  const updated = entry => String(entry.last_verified_date || entry.data_retrieved_date || "");
+  if (state.sort === "addedAsc") {
+    return (a, b) => added(a) - added(b);
+  }
+  if (state.sort === "updated") {
+    return (a, b) => updated(b).localeCompare(updated(a)) || added(b) - added(a);
+  }
+  if (state.sort === "priceDesc") {
+    return (a, b) => (parsePrice(b.price) || -1) - (parsePrice(a.price) || -1);
   }
   if (state.sort === "priceAsc") {
     return (a, b) => (parsePrice(a.price) || Infinity) - (parsePrice(b.price) || Infinity);
   }
-  if (state.sort === "recent") {
-    return (a, b) => String(b.last_verified_date || b.data_retrieved_date || "").localeCompare(String(a.last_verified_date || a.data_retrieved_date || ""));
-  }
-  return (a, b) => String(a.name_jp || "").localeCompare(String(b.name_jp || ""), "ja");
+  return (a, b) => added(b) - added(a);
 }
 
 function render() {
@@ -637,7 +653,10 @@ function readUrlIntoState() {
 
 function applyUrlToControls() {
   els.searchInput.value = state.query;
-  if (["name", "prefecture", "priceAsc", "recent"].includes(state.sort)) els.sort.value = state.sort;
+  const allowed = ["addedDesc", "addedAsc", "updated", "priceDesc", "priceAsc"];
+  const legacy = { name: "addedDesc", prefecture: "addedDesc", recent: "updated" };
+  if (!allowed.includes(state.sort)) state.sort = legacy[state.sort] || "addedDesc";
+  els.sort.value = state.sort;
   const url = state._url || {};
   setIfOption(els.prefecture, url.pref);
   setIfOption(els.motif, url.motif);
@@ -663,7 +682,7 @@ function writeUrl() {
   if (els.material.value) params.set("material", els.material.value);
   if (els.status.value) params.set("status", els.status.value);
   if (els.maxPrice.value) params.set("max", els.maxPrice.value);
-  if (state.sort && state.sort !== "name") params.set("sort", state.sort);
+  if (state.sort && state.sort !== "addedDesc") params.set("sort", state.sort);
   if (state.favoritesOnly) params.set("fav", "1");
   const next = `${location.pathname}${params.toString() ? `?${params}` : ""}${location.hash}`;
   if (next !== `${location.pathname}${location.search}${location.hash}`) {

@@ -12,6 +12,28 @@
 - 超過 24 筆時分頁顯示。
 - `data/omikuji.json` 放入首批「曾確認」紀錄。價格與授予狀況來自公開收集頁，不是現場現貨確認。沒有圖片，避免外連他人照片。
 
-## 注意
+## 來源網址
 
-`previously_confirmed` 表示來源曾經記載，不代表今天仍在授予。升成 `current_confirmed` 之前，請向官方或現場再核對，並填上 `last_verified_date`。
+收集站：
+
+- [GajaLife](https://gajalife.com/)
+- [おみくじ図鑑](https://omikujizukan.cocolog-nifty.com/)
+- [おみくじ好き](https://omikujisuki.com/)
+- [社これくしょん](https://yashirocollection.com/)
+- [ホトカミ](https://hotokami.jp/categories/experience/omikuji/)
+- [ホリデーノート](https://holidaynote.com/tokyo-jinja-kawaii-omikuji/)
+
+Instagram 收集帳號（貼文多半要登入；讀不到的仍列在這裡）：
+
+- https://www.instagram.com/kawaii_omikuji/
+- https://www.instagram.com/omikuji_ian/
+- https://www.instagram.com/omikuji_zoo/
+- https://www.instagram.com/omikuji_yurumikuji/
+- https://www.instagram.com/omikujiatumetai/
+- https://www.instagram.com/azukinaco_05100425/
+- https://www.instagram.com/c_tingru/
+- https://www.instagram.com/chrisyi429/
+- https://www.instagram.com/suamaterrasse/
+
+`previously_confirmed` 表示來源曾經記載，不代表今天仍在授予。
+
