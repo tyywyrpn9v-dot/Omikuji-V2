@@ -8,6 +8,7 @@ const state = {
   filtered: [],
   query: "",
   favoritesOnly: false,
+  owned: "",
   sort: "addedDesc",
   shown: PAGE_SIZE,
   exactPrice: "",
@@ -33,6 +34,8 @@ const els = {
   detailModal: document.querySelector("#detailModal"),
   modalContent: document.querySelector("#modalContent"),
   favoritesNavBtn: document.querySelector("#favoritesNavBtn"),
+  ownedNavBtn: document.querySelector("#ownedNavBtn"),
+  ownedFilter: document.querySelector("#ownedFilter"),
   clearFiltersBtn: document.querySelector("#clearFiltersBtn"),
   loadMoreBtn: document.querySelector("#loadMoreBtn"),
   shareSearchBtn: document.querySelector("#shareSearchBtn"),
@@ -90,9 +93,10 @@ function bindEvents() {
     applyFilters();
   });
 
-  [els.prefecture, els.motif, els.material, els.status, els.maxPrice, els.sort]
+  [els.prefecture, els.motif, els.material, els.status, els.maxPrice, els.sort, els.ownedFilter]
     .forEach(el => el.addEventListener("change", () => {
       if (el === els.sort) state.sort = el.value;
+      if (el === els.ownedFilter) state.owned = el.value;
       state.shown = PAGE_SIZE;
       applyFilters();
     }));
@@ -106,6 +110,13 @@ function bindEvents() {
 
   els.favoritesNavBtn.addEventListener("click", () => {
     state.favoritesOnly = !state.favoritesOnly;
+    state.shown = PAGE_SIZE;
+    applyFilters();
+  });
+
+  els.ownedNavBtn.addEventListener("click", () => {
+    state.owned = state.owned === "owned" ? "" : "owned";
+    els.ownedFilter.value = state.owned;
     state.shown = PAGE_SIZE;
     applyFilters();
   });
@@ -159,6 +170,14 @@ function bindEvents() {
       event.preventDefault();
       event.stopPropagation();
       toggleFavorite(favoriteButton.dataset.favoriteId);
+      return;
+    }
+
+    const ownedButton = event.target.closest("[data-owned-id]");
+    if (ownedButton) {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleOwned(ownedButton.dataset.ownedId);
       return;
     }
 
@@ -233,6 +252,8 @@ function applyFilters() {
 
   let list = state.entries.filter(entry => {
     if (state.favoritesOnly && !getFavorites().has(entry.id)) return false;
+    if (state.owned === "owned" && !getOwned().has(entry.id)) return false;
+    if (state.owned === "unowned" && getOwned().has(entry.id)) return false;
     if (els.prefecture.value && entry.prefecture !== els.prefecture.value) return false;
     if (els.motif.value && !(entry.motif || []).includes(els.motif.value)) return false;
     if (els.material.value && entry.material !== els.material.value) return false;
@@ -352,6 +373,8 @@ function render() {
   els.results.innerHTML = "";
   els.favoritesNavBtn.setAttribute("aria-pressed", String(state.favoritesOnly));
   els.favoritesNavBtn.classList.toggle("is-on", state.favoritesOnly);
+  els.ownedNavBtn.setAttribute("aria-pressed", String(state.owned === "owned"));
+  els.ownedNavBtn.classList.toggle("is-on", state.owned === "owned");
 
   const hasData = state.entries.length > 0;
   const none = state.filtered.length === 0;
@@ -364,16 +387,24 @@ function render() {
       "資料庫還沒有紀錄",
       "目前 data/omikuji.json 是空的。收錄時請留下來源網址；不知道的欄位留空，不要推測。"
     );
-  } else if (none && state.favoritesOnly) {
-    els.resultsTitle.textContent = "我的最愛";
+  } else if (none && state.favoritesOnly && !state.owned && !hasOtherFilters()) {
+    els.resultsTitle.textContent = "收藏目標";
     els.resultsMeta.textContent = "共 0 項";
-    showEmpty("還沒有收藏", "在卡片右上角按 ♡ 即可加入。收藏只存在這台瀏覽器。");
+    showEmpty("還沒有收藏目標", "在卡片右上角按 ♡ 即可加入。收藏目標只存在這台瀏覽器。");
+  } else if (none && state.owned === "owned" && !state.favoritesOnly && !hasOtherFilters()) {
+    els.resultsTitle.textContent = "我的藏品";
+    els.resultsMeta.textContent = "共 0 項";
+    showEmpty("還沒有藏品", "在卡片右上角按「藏」標記已獲取。藏品只存在這台瀏覽器。");
+  } else if (none && state.owned === "unowned" && !state.favoritesOnly && !hasOtherFilters()) {
+    els.resultsTitle.textContent = "非藏品";
+    els.resultsMeta.textContent = "共 0 項";
+    showEmpty("沒有非藏品", "目前的項目都已在我的藏品，或資料庫是空的。");
   } else if (none) {
     els.resultsTitle.textContent = "搜尋結果";
     els.resultsMeta.textContent = "共 0 項";
     showEmpty("找不到符合條件的御神籤", "可以嘗試移除部分篩選，或使用較短的關鍵字。");
   } else {
-    els.resultsTitle.textContent = state.favoritesOnly ? "我的最愛" : (hasActiveQuery() ? "搜尋結果" : "全部御神籤");
+    els.resultsTitle.textContent = viewTitle();
     const shown = Math.min(state.shown, state.filtered.length);
     const total = state.entries.length;
     els.resultsMeta.textContent = shown < state.filtered.length
@@ -392,11 +423,24 @@ function render() {
   if (more) els.loadMoreBtn.textContent = `顯示更多（還有 ${state.filtered.length - state.shown} 項）`;
 }
 
-function hasActiveQuery() {
+function viewTitle() {
+  const parts = [];
+  if (state.favoritesOnly) parts.push("收藏目標");
+  if (state.owned === "owned") parts.push("我的藏品");
+  if (state.owned === "unowned") parts.push("非藏品");
+  if (parts.length) return parts.join(" · ");
+  return hasActiveQuery() ? "搜尋結果" : "全部御神籤";
+}
+
+function hasOtherFilters() {
   return Boolean(
-    state.query || state.favoritesOnly || els.prefecture.value || els.motif.value ||
+    state.query || els.prefecture.value || els.motif.value ||
     els.material.value || els.status.value || els.maxPrice.value || state.exactPrice
   );
+}
+
+function hasActiveQuery() {
+  return Boolean(hasOtherFilters() || state.favoritesOnly || state.owned);
 }
 
 function showEmpty(title, copy) {
@@ -414,7 +458,9 @@ function renderActiveFilters() {
   if (els.status.value) chips.push(statusLabel(els.status.value).text);
   if (els.maxPrice.value) chips.push(`${els.maxPrice.value}円以下`);
   if (state.exactPrice) chips.push(state.exactPrice);
-  if (state.favoritesOnly) chips.push("只看最愛");
+  if (state.favoritesOnly) chips.push("收藏目標");
+  if (state.owned === "owned") chips.push("我的藏品");
+  if (state.owned === "unowned") chips.push("非藏品");
   els.activeFilters.innerHTML = chips.map(text => `<span class="filter-chip">${escapeHtml(text)}</span>`).join("");
 }
 
@@ -425,11 +471,17 @@ function createCard(entry) {
   const image = Array.isArray(entry.images) && entry.images[0] ? entry.images[0] : "";
   const status = statusLabel(entry.status);
   const favorite = getFavorites().has(entry.id);
+  const owned = getOwned().has(entry.id);
 
   article.innerHTML = `
-    <button class="favorite-btn ${favorite ? "is-collected" : ""}"
-      type="button" data-favorite-id="${escapeAttr(entry.id)}"
-      aria-label="${favorite ? "取消收藏" : "加入收藏"}">${favorite ? "♥" : "♡"}</button>
+    <div class="card-marks">
+      <button class="mark-btn owned-btn ${owned ? "is-owned" : ""}"
+        type="button" data-owned-id="${escapeAttr(entry.id)}"
+        aria-label="${owned ? "從我的藏品移除" : "加入我的藏品"}">藏</button>
+      <button class="mark-btn favorite-btn ${favorite ? "is-collected" : ""}"
+        type="button" data-favorite-id="${escapeAttr(entry.id)}"
+        aria-label="${favorite ? "取消收藏目標" : "加入收藏目標"}">${favorite ? "♥" : "♡"}</button>
+    </div>
     <button class="card-main" type="button" data-entry-id="${escapeAttr(entry.id)}">
       <div class="card-image">
         ${image
@@ -577,6 +629,7 @@ function statusLabel(status) {
 function clearFilters() {
   state.query = "";
   state.favoritesOnly = false;
+  state.owned = "";
   state.sort = "name";
   state.exactPrice = "";
   state.shown = PAGE_SIZE;
@@ -586,6 +639,7 @@ function clearFilters() {
   els.material.value = "";
   els.status.value = "";
   els.maxPrice.value = "";
+  els.ownedFilter.value = "";
   els.sort.value = "name";
   applyFilters();
 }
@@ -603,6 +657,22 @@ function toggleFavorite(id) {
   if (favorites.has(id)) favorites.delete(id);
   else favorites.add(id);
   localStorage.setItem("omikujiFavorites", JSON.stringify([...favorites]));
+  applyFilters();
+}
+
+function getOwned() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("omikujiOwned") || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function toggleOwned(id) {
+  const owned = getOwned();
+  if (owned.has(id)) owned.delete(id);
+  else owned.add(id);
+  localStorage.setItem("omikujiOwned", JSON.stringify([...owned]));
   applyFilters();
 }
 
@@ -642,6 +712,7 @@ function readUrlIntoState() {
   state.query = params.get("q") || "";
   state.sort = params.get("sort") || "name";
   state.favoritesOnly = params.get("fav") === "1";
+  state.owned = params.get("own") === "1" ? "owned" : (params.get("own") === "0" ? "unowned" : "");
   state._url = {
     pref: params.get("pref") || "",
     motif: params.get("motif") || "",
@@ -663,6 +734,7 @@ function applyUrlToControls() {
   setIfOption(els.material, url.material);
   setIfOption(els.status, url.status);
   els.maxPrice.value = url.max || "";
+  els.ownedFilter.value = state.owned || "";
 }
 
 function setIfOption(select, value) {
@@ -684,6 +756,8 @@ function writeUrl() {
   if (els.maxPrice.value) params.set("max", els.maxPrice.value);
   if (state.sort && state.sort !== "addedDesc") params.set("sort", state.sort);
   if (state.favoritesOnly) params.set("fav", "1");
+  if (state.owned === "owned") params.set("own", "1");
+  if (state.owned === "unowned") params.set("own", "0");
   const next = `${location.pathname}${params.toString() ? `?${params}` : ""}${location.hash}`;
   if (next !== `${location.pathname}${location.search}${location.hash}`) {
     history.replaceState(null, "", next);

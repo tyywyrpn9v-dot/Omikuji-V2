@@ -399,20 +399,36 @@ h2 {
 .status-previous { color: #946b18; }
 .status-discontinued { color: #a13939; }
 
-.favorite-btn {
+.card-marks {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 10px;
+  right: 10px;
   z-index: 2;
+  display: flex;
+  gap: 6px;
+}
+
+.mark-btn {
   width: 36px;
   height: 36px;
   border: 1px solid rgba(229,221,210,.9);
   border-radius: 50%;
   background: rgba(255,253,249,.92);
-  font-size: 17px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
 }
 
-.favorite-btn.is-collected { background: #fff1ef; }
+.favorite-btn.is-collected { background: #fff1ef; color: var(--accent); }
+.favorite-btn { font-size: 17px; }
+.owned-btn.is-owned { background: #e7f4ea; color: #246b3a; }
+
+.icon-btn.is-on {
+  background: #fff1ef;
+  border-color: #e3b2b2;
+  color: var(--accent-dark);
+  font-weight: 700;
+}
 
 .empty-state {
   padding: 55px 20px;
@@ -585,9 +601,11 @@ h2 {
     margin-left: 0;
     justify-content: flex-end;
     justify-self: end;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    max-width: 10.6rem;
   }
-  .icon-btn { padding: 7px 10px; font-size: 13px; white-space: nowrap; }
+  .brand small { display: none; }
+  .icon-btn { padding: 6px 8px; font-size: 12px; white-space: nowrap; }
 }
 
 @media (max-width: 520px) {

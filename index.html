@@ -21,7 +21,8 @@
       </a>
       <div class="header-actions">
         <button id="shareSearchBtn" class="icon-btn" type="button">複製搜尋</button>
-        <button id="favoritesNavBtn" class="icon-btn" type="button" aria-pressed="false">我的最愛</button>
+        <button id="favoritesNavBtn" class="icon-btn" type="button" aria-pressed="false">收藏目標</button>
+        <button id="ownedNavBtn" class="icon-btn" type="button" aria-pressed="false">我的藏品</button>
       </div>
     </div>
   </header>
@@ -72,6 +73,15 @@
           <h2>篩選</h2>
           <button id="clearFiltersBtn" class="text-btn" type="button">清除</button>
         </div>
+
+        <label>
+          藏品
+          <select id="ownedFilter">
+            <option value="">全部</option>
+            <option value="owned">我的藏品</option>
+            <option value="unowned">非藏品</option>
+          </select>
+        </label>
 
         <label>
           都道府縣
