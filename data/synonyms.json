@@ -537,6 +537,12 @@
           ]
         },
         {
+          "id": "yatagarasu",
+          "label_zh": "八咫烏",
+          "label_ja": "八咫烏",
+          "synonyms": ["八咫烏", "やたがらす", "ヤタガラス"]
+        },
+        {
           "id": "komainu",
           "label_zh": "狛犬",
           "label_ja": "狛犬",
@@ -604,6 +610,7 @@
           "synonyms": [
             "弁財天",
             "弁才天",
+            "弁天",
             "べんざいてん",
             "Benzaiten"
           ]
