@@ -1,39 +1,68 @@
-# 日本御神籤探索
+# 全国ゆるみくじ・おみくじ検索 (Omikuji Searcher)
 
-靜態搜尋站。把這個資料夾的內容放到 GitHub 儲存庫根目錄，再用 GitHub Pages 發布。
+GitHub Pages で公開できる静的なおみくじ（ゆるみくじ）検索サイトです。
 
-## 這次修正
+都道府県・モチーフ（うさぎ・きつね・龍・鯛など）・キーワードで、全国の神社・寺院のかわいいおみくじを横断検索できます。
 
-- 空資料庫、沒有收藏、沒有符合結果，分成三種提示。
-- 搜尋條件寫進網址（`q`、`pref`、`motif`、`material`、`status`、`max`、`sort`、`fav`），可以複製分享。
-- 卡片顯示狀態，以及核實日或「未再核實現貨」。
-- `schema.json` 只強制 `id`、`name_jp`、`shrine_temple_jp`、`prefecture`、`status`、`source_url`。其餘可留空。
-- 最愛可匯出、匯入 JSON。
-- 超過 24 筆時分頁顯示。
-- `data/omikuji.json` 放入首批「曾確認」紀錄。價格與授予狀況來自公開收集頁，不是現場現貨確認。沒有圖片，避免外連他人照片。
+## デモ構成
 
-## 來源網址
+```
+omikuji-searcher/
+├── index.html          # メインページ
+├── style.css           # スタイル
+├── app.js              # 検索ロジック
+├── data/
+│   └── omikuji.json    # データ（ここを編集・追加）
+└── README.md
+```
 
-收集站：
+## GitHub Pages での公開手順
 
-- [GajaLife](https://gajalife.com/)
-- [おみくじ図鑑](https://omikujizukan.cocolog-nifty.com/)
+1. 新しいリポジトリを作成（例: `omikuji-searcher`）
+2. このフォルダの中身をすべてアップロード（または `git push`）
+3. リポジトリの **Settings → Pages** へ
+4. Source を **Deploy from a branch** に設定
+5. Branch を `main`（または `master`）、Folder を `/ (root)` に選択して Save
+6. 数分後に `https://<username>.github.io/omikuji-searcher/` で公開されます
+
+> リポジトリ名を `username.github.io` にした場合はルートで公開されます。
+
+## データの追加・編集
+
+`data/omikuji.json` を編集してください。1件の例：
+
+```json
+{
+  "prefecture": "東京都",
+  "city": "新宿区",
+  "shrine_name": "赤城神社",
+  "omikuji_name": "うさぎみくじ",
+  "price": "500円",
+  "material": "セラミック",
+  "motifs": ["うさぎ", "動物"],
+  "features": "かわいいうさぎの人形型。手書きの表情で一つひとつ異なる。",
+  "source_url": "https://example.com/"
+}
+```
+
+- `motifs` は配列（複数タグ可）
+- 価格・在庫は変動するため「要確認」でも可
+- 新しいモチーフを追加すると、検索フィルタに自動で現れます
+
+## 主な情報源（参考）
+
+- [GajaLife 全国ゆるみくじ](https://gajalife.com/zenkoku-yurumikuji/)
+- [おみくじ図鑑（都道府県別）](https://omikujizukan.cocolog-nifty.com/blog/cat76050564/index.html)
+- [社これくしょん ゆるみくじ](https://yashirocollection.com/omikuji-gallery/yurumikuji/)
 - [おみくじ好き](https://omikujisuki.com/)
-- [社これくしょん](https://yashirocollection.com/)
-- [ホトカミ](https://hotokami.jp/categories/experience/omikuji/)
-- [ホリデーノート](https://holidaynote.com/tokyo-jinja-kawaii-omikuji/)
+- [ホトカミ おみくじ写真](https://hotokami.jp/photos/omikuji/)
 
-Instagram 收集帳號（貼文多半要登入；讀不到的仍列在這裡）：
+## 注意
 
-- https://www.instagram.com/kawaii_omikuji/
-- https://www.instagram.com/omikuji_ian/
-- https://www.instagram.com/omikuji_zoo/
-- https://www.instagram.com/omikuji_yurumikuji/
-- https://www.instagram.com/omikujiatumetai/
-- https://www.instagram.com/azukinaco_05100425/
-- https://www.instagram.com/c_tingru/
-- https://www.instagram.com/chrisyi429/
-- https://www.instagram.com/suamaterrasse/
+本サイトは公開情報を基にした**非公式の参考用**です。  
+実際の授与状況・価格は各神社・寺院の公式情報を必ず確認してください。
 
-`previously_confirmed` 表示來源曾經記載，不代表今天仍在授予。
+## ライセンス
 
+データは各サイトの公開情報を参考にしたサンプルです。  
+コード部分は自由に改変・再利用して構いません。

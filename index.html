@@ -1,197 +1,74 @@
-<!doctype html>
-<html lang="zh-Hant">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="日本御神籤・ゆるみくじ搜尋及收藏資料庫">
-  <meta name="theme-color" content="#f7f3ec">
-  <title>日本御神籤探索</title>
-  <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全国ゆるみくじ・おみくじ検索 | Omikuji Searcher</title>
+  <meta name="description" content="都道府県・モチーフから全国の神社・寺院のかわいいおみくじ（ゆるみくじ）を検索できます。">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="./" aria-label="日本御神籤探索首頁">
-        <img class="brand-mark" src="assets/favicon.svg" alt="" width="36" height="36">
-        <span>
-          <strong>日本御神籤探索</strong>
-          <small>おみくじ・ゆるみくじ Database</small>
-        </span>
-      </a>
-      <div class="header-actions">
-        <button id="shareSearchBtn" class="icon-btn" type="button">複製搜尋</button>
-        <button id="favoritesNavBtn" class="icon-btn" type="button" aria-pressed="false">收藏目標</button>
-        <button id="ownedNavBtn" class="icon-btn" type="button" aria-pressed="false">我的藏品</button>
-      </div>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">全国ゆるみくじ検索</h1>
+      <p class="tagline">都道府県・モチーフからかわいいおみくじを探す</p>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <p class="eyebrow">JAPAN OMIKUJI DATABASE</p>
-        <h1>尋找你想收集的御神籤</h1>
-        <p class="hero-copy">按都道府縣、造型或關鍵字搜尋神社・寺院的御神籤及ゆるみくじ。不知道的欄位會留空，不會用推測補上。</p>
-
-        <form id="searchForm" class="search-box">
-          <label for="searchInput" class="sr-only">搜尋御神籤</label>
-          <input id="searchInput" type="search"
-                 placeholder="例如：京都 兔、白蛇、龍、500円以下"
-                 autocomplete="off">
-          <button type="submit">搜尋</button>
-        </form>
-
-        <div class="quick-searches" aria-label="快速搜尋">
-          <button type="button" data-query="兔">🐇 兔</button>
-          <button type="button" data-query="貓">🐈 貓</button>
-          <button type="button" data-query="狐">🦊 狐</button>
-          <button type="button" data-query="蛇">🐍 蛇</button>
-          <button type="button" data-query="龍">🐉 龍</button>
-          <button type="button" data-query="馬">🐴 馬</button>
-          <button type="button" data-query="虎">🐯 虎</button>
-          <button type="button" data-query="牛">🐄 牛</button>
-          <button type="button" data-query="鹿">🦌 鹿</button>
-          <button type="button" data-query="蛙">🐸 蛙</button>
-          <button type="button" data-query="魚">🐟 魚</button>
-          <button type="button" data-query="鯛">鯛</button>
-          <button type="button" data-query="鳩">🕊 鳩</button>
-          <button type="button" data-query="達摩">達摩</button>
-          <button type="button" data-query="八咫烏">八咫烏</button>
-          <button type="button" data-query="天狗">天狗</button>
-          <button type="button" data-query="干支">干支</button>
-          <button type="button" data-query="弁財天">弁財天</button>
-          <button type="button" data-query="アマビエ">アマビエ</button>
-          <button type="button" data-query="大黑天">大黑天</button>
+  <main class="container">
+    <section class="search-panel">
+      <div class="search-row">
+        <div class="field">
+          <label for="prefecture">都道府県</label>
+          <select id="prefecture">
+            <option value="">すべて</option>
+          </select>
         </div>
+        <div class="field">
+          <label for="motif">モチーフ／タイプ</label>
+          <select id="motif">
+            <option value="">すべて</option>
+          </select>
+        </div>
+        <div class="field grow">
+          <label for="keyword">キーワード</label>
+          <input type="text" id="keyword" placeholder="神社名、おみくじ名など">
+        </div>
+        <button id="searchBtn" class="btn primary">検索</button>
+        <button id="resetBtn" class="btn">リセット</button>
       </div>
+      <p class="result-count" id="resultCount"></p>
     </section>
 
-    <section class="workspace">
-      <aside class="filters" aria-label="搜尋篩選">
-        <div class="section-title-row">
-          <h2>篩選</h2>
-          <button id="clearFiltersBtn" class="text-btn" type="button">清除</button>
-        </div>
+    <section id="results" class="results-grid">
+      <!-- cards injected by JS -->
+    </section>
 
-        <label>
-          藏品
-          <select id="ownedFilter">
-            <option value="">全部</option>
-            <option value="owned">我的藏品</option>
-            <option value="unowned">非藏品</option>
-          </select>
-        </label>
-
-        <label>
-          都道府縣
-          <select id="prefectureFilter">
-            <option value="">全部</option>
-          </select>
-        </label>
-
-        <label>
-          造型／題材
-          <select id="motifFilter">
-            <option value="">全部</option>
-          </select>
-        </label>
-
-        <label>
-          材質
-          <select id="materialFilter">
-            <option value="">全部</option>
-          </select>
-        </label>
-
-        <label>
-          狀態
-          <select id="statusFilter">
-            <option value="">全部</option>
-            <option value="current_confirmed">現在確認</option>
-            <option value="previously_confirmed">曾確認／目前未核實</option>
-            <option value="discontinued">已停止</option>
-          </select>
-        </label>
-
-        <label>
-          價格上限（日圓）
-          <input id="maxPriceFilter" type="number" min="0" step="100" placeholder="例如 500">
-        </label>
-
-        <div class="filter-note">
-          <strong>資料原則</strong>
-          <p>資料不足時留白，不以推測補值。舊資料亦會保留，並與目前狀態分開。價格未記載的項目不會被價格上限排除。</p>
-        </div>
-      </aside>
-
-      <section class="results-area">
-        <div class="results-toolbar">
-          <div>
-            <h2 id="resultsTitle">全部御神籤</h2>
-            <p id="resultsMeta">正在載入資料…</p>
-          </div>
-          <label class="sort-control">
-            排序
-            <select id="sortSelect">
-              <option value="addedDesc">最新加入</option>
-              <option value="addedAsc">最舊加入</option>
-              <option value="updated">最近更新</option>
-              <option value="priceDesc">價格由高至低</option>
-              <option value="priceAsc">價格由低至高</option>
-            </select>
-          </label>
-        </div>
-
-        <div id="activeFilters" class="active-filters" aria-live="polite"></div>
-        <div id="results" class="results-grid"></div>
-        <div id="emptyState" class="empty-state" hidden>
-          <div class="empty-icon" id="emptyIcon">⌕</div>
-          <h3 id="emptyTitle">找不到符合條件的御神籤</h3>
-          <p id="emptyCopy">可以嘗試移除部分篩選，或使用較短的關鍵字。</p>
-        </div>
-        <button id="loadMoreBtn" class="load-more" type="button" hidden>顯示更多</button>
-      </section>
+    <section class="about">
+      <h2>このサイトについて</h2>
+      <p>日本全国の神社・寺院で授与される「ゆるみくじ」（かわいいおみくじ）を、都道府県とモチーフで横断検索できる非公式の静的検索ページです。</p>
+      <p>主な情報源：</p>
+      <ul>
+        <li><a href="https://gajalife.com/zenkoku-yurumikuji/" target="_blank" rel="noopener">GajaLife 全国ゆるみくじ</a></li>
+        <li><a href="https://omikujizukan.cocolog-nifty.com/blog/cat76050564/index.html" target="_blank" rel="noopener">おみくじ図鑑（都道府県別）</a></li>
+        <li><a href="https://yashirocollection.com/omikuji-gallery/yurumikuji/" target="_blank" rel="noopener">社これくしょん ゆるみくじ</a></li>
+        <li><a href="https://omikujisuki.com/" target="_blank" rel="noopener">おみくじ好き</a></li>
+        <li><a href="https://hotokami.jp/photos/omikuji/" target="_blank" rel="noopener">ホトカミ おみくじ写真</a></li>
+      </ul>
+      <p class="note">※価格・在庫・授与状況は変動します。必ず公式情報を確認してください。本サイトは収集・参拝の参考用です。</p>
     </section>
   </main>
 
-  <div id="detailModal" class="modal" hidden>
-    <div class="modal-backdrop" data-close-modal></div>
-    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button class="modal-close" type="button" data-close-modal aria-label="關閉">×</button>
-      <div id="modalContent"></div>
-    </article>
-  </div>
-
-  <footer class="site-footer">
-    <p>資料庫架構：accuracy > completeness · 靜態網站</p>
-    <p id="dataUpdated">資料更新：—</p>
-    <div class="source-list">
-      <p class="source-list-title">來源網站</p>
-      <ul>
-        <li><a href="https://gajalife.com/" target="_blank" rel="noopener noreferrer">GajaLife</a></li>
-        <li><a href="https://omikujizukan.cocolog-nifty.com/" target="_blank" rel="noopener noreferrer">おみくじ図鑑</a></li>
-        <li><a href="https://omikujisuki.com/" target="_blank" rel="noopener noreferrer">おみくじ好き</a></li>
-        <li><a href="https://yashirocollection.com/" target="_blank" rel="noopener noreferrer">社これくしょん</a></li>
-        <li><a href="https://hotokami.jp/categories/experience/omikuji/" target="_blank" rel="noopener noreferrer">ホトカミ</a></li>
-        <li><a href="https://holidaynote.com/tokyo-jinja-kawaii-omikuji/" target="_blank" rel="noopener noreferrer">ホリデーノート</a></li>
-      </ul>
-      <p class="source-list-title">Instagram 收集帳號</p>
-      <p class="source-list-note">這些帳號的貼文多半要登入才看得到。只收公開索引裡能核對神社、且不是重複的御神籤。讀不到貼文的帳號仍保留在列表。</p>
-      <ul>
-        <li><a href="https://www.instagram.com/kawaii_omikuji/" target="_blank" rel="noopener noreferrer">@kawaii_omikuji</a></li>
-        <li><a href="https://www.instagram.com/omikuji_ian/" target="_blank" rel="noopener noreferrer">@omikuji_ian</a></li>
-        <li><a href="https://www.instagram.com/omikuji_zoo/" target="_blank" rel="noopener noreferrer">@omikuji_zoo</a></li>
-        <li><a href="https://www.instagram.com/omikuji_yurumikuji/" target="_blank" rel="noopener noreferrer">@omikuji_yurumikuji</a></li>
-        <li><a href="https://www.instagram.com/omikujiatumetai/" target="_blank" rel="noopener noreferrer">@omikujiatumetai</a></li>
-        <li><a href="https://www.instagram.com/azukinaco_05100425/" target="_blank" rel="noopener noreferrer">@azukinaco_05100425</a></li>
-        <li><a href="https://www.instagram.com/c_tingru/" target="_blank" rel="noopener noreferrer">@c_tingru</a></li>
-        <li><a href="https://www.instagram.com/chrisyi429/" target="_blank" rel="noopener noreferrer">@chrisyi429</a></li>
-        <li><a href="https://www.instagram.com/suamaterrasse/" target="_blank" rel="noopener noreferrer">@suamaterrasse</a></li>
-      </ul>
+  <footer class="footer">
+    <div class="container">
+      <p>Omikuji Searcher · GitHub Pages 用静的サイト</p>
+      <p>データは公開情報を基にしたサンプルです。追加・修正は <code>data/omikuji.json</code> を編集してください。</p>
     </div>
   </footer>
 
-  <script src="app.js" defer></script>
+  <script src="app.js"></script>
 </body>
 </html>
