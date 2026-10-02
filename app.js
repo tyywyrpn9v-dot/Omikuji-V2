@@ -38,7 +38,6 @@ const els = {
   ownedFilter: document.querySelector("#ownedFilter"),
   clearFiltersBtn: document.querySelector("#clearFiltersBtn"),
   loadMoreBtn: document.querySelector("#loadMoreBtn"),
-  shareSearchBtn: document.querySelector("#shareSearchBtn"),
   dataUpdated: document.querySelector("#dataUpdated")
 };
 
@@ -125,17 +124,6 @@ function bindEvents() {
     state.shown += PAGE_SIZE;
     render();
     writeUrl();
-  });
-
-  els.shareSearchBtn.addEventListener("click", async () => {
-    writeUrl();
-    const url = location.href;
-    try {
-      await navigator.clipboard.writeText(url);
-      toast("已複製目前搜尋網址");
-    } catch {
-      toast(url);
-    }
   });
 
   document.addEventListener("click", (event) => {
@@ -394,7 +382,7 @@ function render() {
   } else if (none && state.owned === "owned" && !state.favoritesOnly && !hasOtherFilters()) {
     els.resultsTitle.textContent = "我的藏品";
     els.resultsMeta.textContent = "共 0 項";
-    showEmpty("還沒有藏品", "在卡片右上角按「藏」標記已獲取。藏品只存在這台瀏覽器。");
+    showEmpty("還沒有藏品", "在卡片右上角按 ☆ 標記已獲取。藏品只存在這台瀏覽器。");
   } else if (none && state.owned === "unowned" && !state.favoritesOnly && !hasOtherFilters()) {
     els.resultsTitle.textContent = "非藏品";
     els.resultsMeta.textContent = "共 0 項";
@@ -477,7 +465,7 @@ function createCard(entry) {
     <div class="card-marks">
       <button class="mark-btn owned-btn ${owned ? "is-owned" : ""}"
         type="button" data-owned-id="${escapeAttr(entry.id)}"
-        aria-label="${owned ? "從我的藏品移除" : "加入我的藏品"}">藏</button>
+        aria-label="${owned ? "從我的藏品移除" : "加入我的藏品"}">${owned ? "★" : "☆"}</button>
       <button class="mark-btn favorite-btn ${favorite ? "is-collected" : ""}"
         type="button" data-favorite-id="${escapeAttr(entry.id)}"
         aria-label="${favorite ? "取消收藏目標" : "加入收藏目標"}">${favorite ? "♥" : "♡"}</button>
