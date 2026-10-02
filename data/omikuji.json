@@ -59493,5 +59493,30 @@
       "歓喜院",
       "小野市"
     ]
+  },
+  {
+    "institution_type": "神社",
+    "city": "豊島区",
+    "address": "",
+    "images": [],
+    "material": "",
+    "notes": "由每月自動更新自公開來源收錄。價格與授予狀況未向神社核對。未知欄位留空。沒有下載圖片。",
+    "source_title": "社これくしょん",
+    "source_url": "https://yashirocollection.com/natsugentei-omikuji-suika-komagomemyogijinjya/",
+    "source_published_date": "2026-08-26",
+    "data_retrieved_date": "2026-10-02",
+    "official_url": "",
+    "official_social_urls": [],
+    "last_verified_date": "",
+    "status": "previously_confirmed",
+    "version_notes": "2026-10-02 自動收錄自 RSS 或月份索引。不是現場現貨確認。",
+    "search_terms": [],
+    "id": "yashiro-4cc683649f41",
+    "name_jp": "夏限定おみくじ(スイカ)",
+    "shrine_temple_jp": "駒込妙義神社",
+    "prefecture": "東京都",
+    "price": "",
+    "motif": [],
+    "google_maps_url": ""
   }
 ]
