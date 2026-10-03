@@ -1,5 +1,21 @@
 [
   {
+    "ran_at": "2026-10-03T09:13+08:00",
+    "added_count": 0,
+    "added": [],
+    "skipped_count": 9,
+    "manual_review": [],
+    "errors": [
+      "zukan https://omikujizukan.cocolog-nifty.com/blog/2026/10/index.html: HTTP Error 403: Forbidden",
+      "zukan https://omikujizukan.cocolog-nifty.com/blog/2026/09/index.html: HTTP Error 403: Forbidden"
+    ],
+    "not_checked": [
+      "Instagram",
+      "ホトカミ",
+      "ホリデーノート"
+    ]
+  },
+  {
     "ran_at": "2026-10-02T16:22+08:00",
     "added_count": 1,
     "added": [
